@@ -1,8 +1,5 @@
 # What is Angler's Almanac
-
-```ad-summary
 Angler's Almanac is a fishing mod. It turns a simple pastime into a deep, progressive system involving discovery and rare collections.
-```
 
 
 --- 
@@ -20,9 +17,9 @@ Angler’s Almanac is built with a modular JSON-driven architecture. This means 
 
 ---
 # Links
-- :LiGithub: Code: *Not public yet*
-- :LiBug: Report issue: 
-- :LiHandHelping: Help us improve the docs here: https://github.com/rm20killer/Anglers-Almanac-Doc
+- Code: *Not public yet*
+- Report issue: 
+- Help us improve the docs here: https://github.com/rm20killer/Anglers-Almanac-Doc
 # Authors
 This mod is made by [@RM20](https://www.rm20.dev/about).
-> :LiDollarSign: Support me at: https://github.com/sponsors/rm20killer
+> Support me at: https://github.com/sponsors/rm20killer
