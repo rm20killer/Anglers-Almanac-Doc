@@ -1,0 +1,75 @@
+# File Structure 
+:LiFolder: *assets/almanac/loot/fish/giant_catfish.json*
+```json
+{
+  "id": "almanac:giant_catfish",
+  "category": "fish", // could be taken from the folder instead
+  "name": "Giant Catfish",
+  "description": "A heavy bottom-feeder known for its stubborn strength.",
+  "size": 200, //for fish only
+  "rarity_weight": 15,
+  "habitats": {
+    "is_global": false,
+    "zones": [1, 2],
+    "biomes": ["hytale:swamp", "hytale:muddy_river"],
+    "min_depth": 5
+  },
+  "minigame_stats": {
+    "difficulty": 7,
+    "behavior": "heavy",
+	"stamina": 60
+  },
+  "visuals": {
+    "model": "almanac:geo/clownfish",
+    "texture": "almanac:textures/entity/fish/clownfish_grey",
+    "palette": "almanac:tropical_standard" 
+  }
+}
+```
+
+
+### 1. Identity & Lore
+
+- **`"id": "almanac:giant_catfish"`** The internal technical name (subject to change)
+- `"category": "fish"` 
+- **`"name": "Giant Catfish"`** The "Display Name"
+- **`"description": "..."`** The "Description Text"
+- `"size": 200` The base size of the fish.
+
+### 2. The Loot Logic
+- **`"rarity_weight": 15`** This is the number used in your **Hierarchical Lookup**.
+    The game adds up all weights in the current biome and rolls a random number to pick the winner
+
+| **Rarity Tier** | **rarity_weight** | **Description**                    |
+| --------------- | ----------------- | ---------------------------------- |
+| **Junk**        | `150 - 200`       | Old boots, seaweed, rusted cans.   |
+| **Common**      | `100 - 150`       | Your common fish (Minnows, Perch). |
+| **Uncommon**    | `50 - 80`         | Slightly larger, more useful fish  |
+| **Rare**        | `20 - 40`         | Harder to catch, unique colours    |
+| **Epic**        | `5 - 15`          | High-tier rewards                  |
+| **Legendary**   | `1 - 3`           | The rarest catches                 |
+
+### 3. The Habitat System 
+- **`"is_global": false`** If `true`, put this fish into the "Always Catchable" bucket. Since it's `false`, it only appears in the specific places listed below.
+- **`"zones": [1, 2]`** An array of Zone IDs.
+- **`"biomes": ["hytale:swamp", ...]`** The Biome Bucket list. 
+- **`"min_depth": 5`** It checks the blocks below the bobber. If the water is only 1-4 blocks deep, this fish is removed from the possible loot list.
+
+### 4. The Minigame Engine 
+- **`"difficulty": 7`** (Scale 1-10)
+    - This is the Universal Speed Multiplier.
+    - **Effect:** Higher numbers make the fish icon move faster, arrows fall quicker, or the timing needle spin at higher RPMs.
+- **`"behavior": "heavy"`** (Keywords: `steady`, `heavy`, `darting`, `sinker`)
+    - This defines the **AI Movement Pattern**.
+    - **Effect:** A `heavy` fish resists being moved, making the player's controls feel sluggish. A `darting` fish would make sudden, unpredictable jumps.
+- **`"stamina": 60`** (Total Progress Points)
+    - This determines the **Length of the Fight**.
+    - **Effect:** Higher stamina requires the player to maintain focus for a longer period to complete the catch.
+
+### 5. Visuals & Assets
+This is Subject to change depending on Hytale
+- **`"model": "..."`** Points to the Model file
+- **`"texture": "..."`** Points to the Texture file.
+- `"palette": "..."` Points to the colour palette to tint the fish colour
+	- **Benefit:** If you want to change the "Neon Blue" across 50 different tropical fish, you only change it in the one palette file.
+	- See [[Colour Structure]] to set up a colour palette

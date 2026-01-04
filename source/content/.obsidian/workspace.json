@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "2e9225e34664efd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0571c1c94d829fac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d8837e6263008e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Minigames.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Minigames"
+            }
+          },
+          {
+            "id": "3748dfcb05a659d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angler's Almanac Homepage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angler's Almanac Homepage"
+            }
+          },
+          {
+            "id": "fda8961cd8704772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Configs/Loot File Structure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Loot File Structure"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1243752a4df710bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a4c81639dc8783e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b77831b90dd9f87b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0829eb50dbb8a2b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "436d75c49c949463",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba1ec06a672fb227",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cea78168fbf9ccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aa5a4c073617928",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Angler's Almanac Homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Angler's Almanac Homepage"
+            }
+          },
+          {
+            "id": "5acb7020384970a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Angler's Almanac Homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Angler's Almanac Homepage"
+            }
+          },
+          {
+            "id": "f850ba7e9e699bea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2d9129bb8dcf7983",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Angler's Almanac Homepage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Angler's Almanac Homepage"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3748dfcb05a659d3",
+  "lastOpenFiles": [
+    "Configs/Colour Structure.md",
+    "Configs/Loot File Structure.md",
+    "Hytale/Fishing/Sudo Code/File Structure/Loot File Structure.md",
+    "Hytale/Fishing/Sudo Code/File Structure",
+    "Hytale/Fishing/Sudo Code",
+    "Hytale/Fishing",
+    "Hytale",
+    "Minigames.md",
+    "Angler's Almanac Homepage.md",
+    "Configs/Configs.md",
+    "Configs/Rod Structure.md",
+    "The Almanac Book.md",
+    "Configs/File Structure.md",
+    "Configs",
+    "index.md",
+    "category-folder/index.md",
+    "category-folder/Some note.md",
+    "category-folder"
+  ]
+}
