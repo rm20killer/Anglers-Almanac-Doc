@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angler's Almanac Homepage.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angler's Almanac Homepage"
+              "title": "index"
             }
           },
           {
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angler's Almanac Homepage.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Angler's Almanac Homepage"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angler's Almanac Homepage.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Angler's Almanac Homepage"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angler's Almanac Homepage.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Angler's Almanac Homepage"
+              "title": "Outline of index"
             }
           }
         ]
@@ -196,10 +196,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "3748dfcb05a659d3",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
     "Configs/Colour Structure.md",
     "Configs/Loot File Structure.md",
@@ -209,7 +210,7 @@
     "Hytale/Fishing",
     "Hytale",
     "Minigames.md",
-    "Angler's Almanac Homepage.md",
+    "index.md",
     "Configs/Configs.md",
     "Configs/Rod Structure.md",
     "The Almanac Book.md",
