@@ -1,4 +1,3 @@
-# File Structure 
 :LiFolder: *assets/almanac/loot/fish/giant_catfish.json*
 ```json
 {

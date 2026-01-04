@@ -1,5 +1,3 @@
-# File Structure 
-
 :LiFolder: *assets/almanac/rod/thorium_rod.json*
 ```json
 {
