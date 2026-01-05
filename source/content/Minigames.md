@@ -1,3 +1,12 @@
+---
+title: "Minigames"
+description: "List of minigames and how they work"
+permalink: "minigames"
+draft: false
+tags:
+  - Minigame
+---
+
 Don't like the minigames you can turn them off, even the whole minigame system.
 
 ## Games

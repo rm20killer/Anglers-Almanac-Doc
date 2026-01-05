@@ -1,4 +1,12 @@
-:LiFolder: *assets/almanac/rod/thorium_rod.json*
+---
+draft: false
+tags:
+  - Config
+  - Rod
+  - Visuals
+---
+
+*assets/almanac/rod/thorium_rod.json*
 ```json
 {
   "id": "almanac:thorium_rod",

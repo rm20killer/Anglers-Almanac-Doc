@@ -9,7 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/rm20killer/Anglers-Almanac-Doc",
-      Quartz: "https://github.com/jackyzha0/quartz",
+      Twitter: "https://twitter.com/rm20killer",
+      Donate: "https://github.com/sponsors/rm20killer"
     },
   }),
 }

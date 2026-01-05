@@ -1,4 +1,13 @@
-:LiFolder: *assets/almanac/loot/fish/giant_catfish.json*
+---
+draft: false
+tags:
+  - Config
+  - Fish
+  - Loot
+  - Visuals
+---
+
+*assets/almanac/loot/fish/giant_catfish.json*
 ```json
 {
   "id": "almanac:giant_catfish",

@@ -1,4 +1,12 @@
-:LiFolder: *assets/almanac/palettes/tropical_colours.json*
+---
+draft: false
+tags:
+  - Config
+  - Fish
+  - Visuals
+---
+
+*assets/almanac/palettes/tropical_colours.json*
 ```json
 {
   "id": "almanac:tropical_standard",

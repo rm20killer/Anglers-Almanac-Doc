@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "The Almanac Book.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "The Almanac Book"
             }
           },
           {
@@ -202,18 +202,18 @@
   },
   "active": "3748dfcb05a659d3",
   "lastOpenFiles": [
-    "Minigames.md",
     "Configs/Rod Structure.md",
-    "Configs/Loot File Structure.md",
+    "The Almanac Book.md",
+    "Minigames.md",
+    "Configs/Configs.md",
     "Configs/Colour Structure.md",
+    "Configs/Loot File Structure.md",
     "index.md",
     "Hytale/Fishing/Sudo Code/File Structure/Loot File Structure.md",
     "Hytale/Fishing/Sudo Code/File Structure",
     "Hytale/Fishing/Sudo Code",
     "Hytale/Fishing",
     "Hytale",
-    "Configs/Configs.md",
-    "The Almanac Book.md",
     "Configs/File Structure.md",
     "Configs",
     "category-folder/index.md",

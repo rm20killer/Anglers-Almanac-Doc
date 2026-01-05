@@ -1,3 +1,8 @@
+---
+title: "Angler’s Almanac"
+draft: false
+---
+
 # What is Angler's Almanac
 Angler's Almanac is a fishing mod. It turns a simple pastime into a deep, progressive system involving discovery and rare collections.
 
