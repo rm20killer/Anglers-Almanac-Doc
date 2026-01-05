@@ -11,12 +11,12 @@ Don't like the minigames you can turn them off, even the whole minigame system.
 
 ## Games
 
-| Minigame        | Name                                     | Description                                                      |
-| --------------- | ---------------------------------------- | ---------------------------------------------------------------- |
-| The Tension Bar | Hytale/Minigames/Stardew Style.md        | Keep a floating bar over a moving fish icon.                     |
-| Rhythm Strike   | Hytale/Minigames/Fish Fish Revolution.md | Press WASD/Arrows in time with music or prompts.                 |
-| Precision Tug   | Hytale/Minigames/Timing.md               | A moving needle on a dial. Click in the "Sweet Spot."            |
-| The Struggle    | Hytale/Minigames/Button Masher.md        | Rapidly click to pull a heavy fish closer before the line snaps. |
+| Minigame        | Name                 | Description                                                      |
+| --------------- | -------------------- | ---------------------------------------------------------------- |
+| The Tension Bar | Stardew Style        | Keep a floating bar over a moving fish icon.                     |
+| Rhythm Strike   | Fish Fish Revolution | Press WASD/Arrows in time with music or prompts.                 |
+| Precision Tug   | Timing               | A moving needle on a dial. Click in the "Sweet Spot."            |
+| The Struggle    | Button Masher        | Rapidly click to pull a heavy fish closer before the line snaps. |
 
 Each minigame calculates a **Performance Percentage ($0\%$ to $100\%$)**, which is then mapped to the four grades: **Fail, Good, Great, and Perfect.**
 

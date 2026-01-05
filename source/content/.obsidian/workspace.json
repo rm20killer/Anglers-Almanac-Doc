@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Almanac Book.md",
-                "mode": "preview",
-                "source": true
+                "file": "_index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "The Almanac Book"
+              "title": "_index"
             }
           },
           {
@@ -202,9 +202,9 @@
   },
   "active": "3748dfcb05a659d3",
   "lastOpenFiles": [
-    "Configs/Rod Structure.md",
-    "The Almanac Book.md",
     "Minigames.md",
+    "The Almanac Book.md",
+    "Configs/Rod Structure.md",
     "Configs/Configs.md",
     "Configs/Colour Structure.md",
     "Configs/Loot File Structure.md",

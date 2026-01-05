@@ -28,3 +28,5 @@ Angler’s Almanac is built with a modular JSON-driven architecture. This means 
 # Authors
 This mod is made by [@RM20](https://www.rm20.dev/about).
 > Support me at: https://github.com/sponsors/rm20killer
+
+If you would like to help DM `rm20` on Discord.
