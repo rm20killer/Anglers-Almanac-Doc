@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "Loot/Loots.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Loots"
             }
           },
           {
@@ -202,22 +202,29 @@
   },
   "active": "3748dfcb05a659d3",
   "lastOpenFiles": [
-    "Minigames.md",
+    "Loot/Fish/Global/_Global Fish.md",
+    "Loot/Loots.md",
+    "Loot/Fish/Global",
+    "Configs/Colour Structure.md",
+    "_index.md",
+    "Loot/Fish",
     "The Almanac Book.md",
+    "Loot",
+    "Configs/Loot File Structure.md",
+    "Configs/Rod Structure.md - Shortcut.lnk",
+    "Configs/Loot File Structure.md - Shortcut.lnk",
+    "Configs/Configs.md - Shortcut.lnk",
+    "Configs/Colour Structure.md - Shortcut.lnk",
+    "Minigames.md",
     "Configs/Rod Structure.md",
     "Configs/Configs.md",
-    "Configs/Colour Structure.md",
-    "Configs/Loot File Structure.md",
     "index.md",
     "Hytale/Fishing/Sudo Code/File Structure/Loot File Structure.md",
     "Hytale/Fishing/Sudo Code/File Structure",
     "Hytale/Fishing/Sudo Code",
     "Hytale/Fishing",
-    "Hytale",
     "Configs/File Structure.md",
-    "Configs",
     "category-folder/index.md",
-    "category-folder/Some note.md",
-    "category-folder"
+    "category-folder/Some note.md"
   ]
 }

@@ -11,7 +11,7 @@ tags:
 ```json
 {
   "id": "almanac:giant_catfish",
-  "category": "fish", // could be taken from the folder instead
+  "category": ["fish", "freshwater", "predator"],
   "name": "Giant Catfish",
   "description": "A heavy bottom-feeder known for its stubborn strength.",
   "size": 200, //for fish only
@@ -20,7 +20,10 @@ tags:
     "is_global": false,
     "zones": [1, 2],
     "biomes": ["hytale:swamp", "hytale:muddy_river"],
-    "min_depth": 5
+    "min_depth": 5,
+    "height": { 
+	  "min_y": 0,
+	  "max_y": 64 //-1 is no limit
   },
   "minigame_stats": {
     "difficulty": 7,
@@ -30,7 +33,7 @@ tags:
   "visuals": {
     "model": "almanac:geo/clownfish",
     "texture": "almanac:textures/entity/fish/clownfish_grey",
-    "palette": "almanac:tropical_standard" 
+    "palette": "almanac:tropical_standard" //for tinted fish only leave blank for no tilting and texture should be black and white
   }
 }
 ```
@@ -39,7 +42,7 @@ tags:
 ### 1. Identity & Lore
 
 - **`"id": "almanac:giant_catfish"`** The internal technical name (subject to change)
-- `"category": "fish"` 
+- `"category": "fish"` An Array of tags used in [[Rod Structure]] and [[Bait Structure]]
 - **`"name": "Giant Catfish"`** The "Display Name"
 - **`"description": "..."`** The "Description Text"
 - `"size": 200` The base size of the fish.
@@ -62,6 +65,9 @@ tags:
 - **`"zones": [1, 2]`** An array of Zone IDs.
 - **`"biomes": ["hytale:swamp", ...]`** The Biome Bucket list. 
 - **`"min_depth": 5`** It checks the blocks below the bobber. If the water is only 1-4 blocks deep, this fish is removed from the possible loot list.
+- **`"height": {}`** Controls the vertical depth of the fish.
+	- **`min_y` / `max_y`:** The Y-level range (e.g., `0` to `64` for sea level).
+	- *setting `max_y` to -1 will disable it min and max height*
 
 ### 4. The Minigame Engine 
 - **`"difficulty": 7`** (Scale 1-10)
