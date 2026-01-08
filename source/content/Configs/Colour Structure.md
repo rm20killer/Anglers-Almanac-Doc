@@ -62,6 +62,6 @@ Used on [[Loot File Structure]] in `"palette"`
 
 ### 3. Regional Overrides
 - **`"location_bonuses": []`** A list of rules that change how common a colour is in specific areas.
-    - **`"target": "hytale:swamp"`** The specific biome or zone where this rule applies.
+    - **`"target": "hytale:swamp"`** The specific region or zone where this rule applies.
     - **`"new_weight": 80`** The boosted probability used only in that location.
-    - **Effect:** Allows a colour to be rare globally but common in one specific biome.
+    - **Effect:** Allows a colour to be rare globally but common in one specific regions.

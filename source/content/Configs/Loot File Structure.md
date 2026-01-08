@@ -19,7 +19,10 @@ tags:
   "habitats": {
     "is_global": false,
     "zones": [1, 2],
-    "biomes": ["hytale:swamp", "hytale:muddy_river"],
+    "regions": ["hytale:swamp", "hytale:muddy_river"],
+    "time_of_day": ["night"], //?
+    "required_weather": "any", //?
+    "moon_phase": ["full", "new"], //?
     "min_depth": 5,
     "height": { 
 	  "min_y": 0,
@@ -49,7 +52,7 @@ tags:
 
 ### 2. The Loot Logic
 - **`"rarity_weight": 15`** This is the number used in your **Hierarchical Lookup**.
-    The game adds up all weights in the current biome and rolls a random number to pick the winner
+    The game adds up all weights in the current region and rolls a random number to pick the winner
 
 | **Rarity Tier** | **rarity_weight** | **Description**                    |
 | --------------- | ----------------- | ---------------------------------- |
@@ -63,8 +66,17 @@ tags:
 ### 3. The Habitat System 
 - **`"is_global": false`** If `true`, put this fish into the "Always Catchable" bucket. Since it's `false`, it only appears in the specific places listed below.
 - **`"zones": [1, 2]`** An array of Zone IDs.
-- **`"biomes": ["hytale:swamp", ...]`** The Biome Bucket list. 
+- **`"regions": ["hytale:swamp", ...]`** The Region Bucket list. 
 - **`"min_depth": 5`** It checks the blocks below the bobber. If the water is only 1-4 blocks deep, this fish is removed from the possible loot list.
+- **`"time_of_day": []`** / **`"any"`**
+    - **Multiple Options:** `["morning", "day", "dusk", "night"]`. The fish will only appear during the times listed. 
+    - **Any Mode:** Set to `"any"` to allow the fish to be caught at any time of day.
+- **`"required_weather": []`** / **`"any"`**
+    - **Multiple Options:** `["clear", "rain", "thunder", "snow"]`.
+    - **Any Mode:** Set to `"any"` so the weather doesn't block the fish from appearing.
+- **`"moon_phase": []`** / **`"any"`**
+    - **Multiple Options:** `["new", "waxing", "full", "waning"]`.
+    - **Any Mode:** Set to `"any"` to ignore lunar cycles.
 - **`"height": {}`** Controls the vertical depth of the fish.
 	- **`min_y` / `max_y`:** The Y-level range (e.g., `0` to `64` for sea level).
 	- *setting `max_y` to -1 will disable it min and max height*
