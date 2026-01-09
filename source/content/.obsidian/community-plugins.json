@@ -1,4 +1,6 @@
 [
   "obsidian-git",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "templater-obsidian",
+  "color-palette"
 ]

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Configs/Loot File Structure.md",
+                "file": "Loot/Fish/Zone 1/_Emerald Wilds Info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loot File Structure"
+              "title": "_Emerald Wilds Info"
             }
           },
           {
@@ -211,32 +211,35 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "197d48e84cc6f1de",
   "lastOpenFiles": [
+    "Loot/Loots.md",
+    "_index.md",
+    "The Almanac Book.md",
+    "Loot/Fish/Zone 1/_Emerald Wilds Info.md",
+    "Template/post.md",
+    "Loot/Junk/Global/_Global Junk.md",
+    "Configs/Colour Structure.md",
+    "Template",
+    "Loot/Fish/Global/_Global Fish.md",
+    "Configs/Loot File Structure.md",
+    "Loot/Fish/Zone 1",
     "Configs/Rod Structure.md",
     "Untitled.base",
-    "Configs/Colour Structure.md",
     "Configs/Rod Attachment Structure.md",
-    "Configs/Loot File Structure.md",
-    "_index.md",
-    "Loot/Fish/Global/_Global Fish.md",
-    "Loot/Junk/Global/_Global Junk.md",
-    "Loot/Loots.md",
     "Loot/Junk/Global",
     "Loot/Junk",
     "Loot/Untitled.md",
     "Configs/Configs.md",
     "Loot/Fish/Global",
     "Loot/Fish",
-    "The Almanac Book.md",
     "Loot",
     "Configs/Rod Structure.md - Shortcut.lnk",
     "Configs/Loot File Structure.md - Shortcut.lnk",
-    "Configs/Configs.md - Shortcut.lnk",
-    "Configs/Colour Structure.md - Shortcut.lnk",
     "Minigames.md",
     "index.md",
     "Hytale/Fishing/Sudo Code/File Structure/Loot File Structure.md",
