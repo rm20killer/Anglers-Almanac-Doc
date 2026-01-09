@@ -2,6 +2,10 @@
 draft: false
 tags:
   - loot
+title: Loots
+aliases:
+  - Loot
+  - Loots
 ---
 
 > [!warning] 
@@ -10,6 +14,9 @@ tags:
 
 # Fish
 - [[_Emerald Wilds Info]]
+- [[_Howling Sands Info]]
+- [[_Whisperfrost Frontiers Info]]
+- [[_Devastated Lands Info]]
 # Junk
 
 # Treasure

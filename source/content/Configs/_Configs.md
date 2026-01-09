@@ -3,6 +3,9 @@ draft: false
 tags:
   - Config
 title: Configs
+aliases:
+  - Configs
+  - Config
 ---
 
 # WIP

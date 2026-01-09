@@ -2,10 +2,11 @@
 draft: false
 tags:
   - Loot
-  - Zone1
+  - Zone/1
 title: Emerald Wilds Info
 aliases:
   - Zone 1 info
+  - Emerald Wilds Info
 ---
 # Emerald Wilds
 Fish in zone 1 would be Temperate Freshwater (fish that thrive in moderate climates, typically in water temperatures between roughly 15°C to 25°C)
@@ -14,18 +15,18 @@ Fish in zone 1 would be Temperate Freshwater (fish that thrive in moderate clima
 >**Temperate Freshwater** - Aquatic environments where fish that thrive in moderate climates, typically in water temperatures between roughly 15°C to 25°C
 
 ### Real word example
-- **Minnows & Danios:** White Cloud Mountain Minnow, Zebra Danio, Leopard Danio, Glowlight Danio.
-- **Barbs**: Cherry Barb, Rosy Barb, Gold Barb, Odessa Barb.
-- **Loaches**: Hillstream Loaches, Weather Loach, Stone Loach.
-- Paradise Fish, 
-- Guppies, 
-- Rainbow Shiner, 
-- Florida Flagfish, 
-- Peppered Corydoras, 
+- **Minnows & Danios:** White Cloud Mountain Minnow, Zebra Danio, Leopard Danio, Glowlight Danio
+- **Barbs**: Cherry Barb, Rosy Barb, Gold Barb, Odessa Barb
+- **Loaches**: Hillstream Loaches, Weather Loach, Stone Loach
+- Paradise Fish
+- Guppies
+- Rainbow Shiner,
+- Florida Flagfish,
+- Peppered Corydoras,
 - Goldfish
 
 ---
-## Angler's Almanac concepts
+# Angler's Almanac concepts
 
 ### Emerald Trout
 (**Inspiration**: Rainbow Trout)
@@ -40,12 +41,13 @@ Fish in zone 1 would be Temperate Freshwater (fish that thrive in moderate clima
 - **Look:** A tiny, thin body with a "racing stripe" that flashes when it turns quickly.
 
 ---
-# Zone 1 cave
+## Zone 1 cave
 Cave fish typically lose their pigment and become pale and their eyesight, but they develop incredible **bioluminescence** or enhanced whiskers to feel vibrations.
-## Angler's Almanac concepts
+
 ### Blind Ghost Tetra
 (**Inspiration**: Mexican Blind Cave Fish)
 - **Look:** Using the same thin, tiny body as the **Grove Dart**, but the "racing stripe" is now a faint, pulsating lavender vein. The body is semi-translucent "ghost white," and the eyes are replaced by smooth, iridescent scales.
+- 
 ### Root-Feeler Loach
 (**Inspiration**: Cave Loach)
 - **Look:** Similar to the **Moss-Back Loach**, it has a thick, tubular body. Instead of "leafy" fins, it has long, thin, whip-like barbels that extend from its chin and fins to navigate in the dark. Its skin is a pale, fleshy pink with faint marble patterns.
