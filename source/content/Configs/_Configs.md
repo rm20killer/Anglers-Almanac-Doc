@@ -2,6 +2,7 @@
 draft: false
 tags:
   - Config
+title: Configs
 ---
 
 # WIP

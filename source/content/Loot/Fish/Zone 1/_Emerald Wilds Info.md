@@ -3,13 +3,16 @@ draft: false
 tags:
   - Loot
   - Zone1
+title: Emerald Wilds Info
+aliases:
+  - Zone 1 info
 ---
 # Emerald Wilds
 Fish in zone 1 would be Temperate Freshwater (fish that thrive in moderate climates, typically in water temperatures between roughly 15°C to 25°C)
 
-```ad-note
-**Temperate Freshwater** - Aquatic environments where fish that thrive in moderate climates, typically in water temperatures between roughly 15°C to 25°C
-```
+> [!note] 
+>**Temperate Freshwater** - Aquatic environments where fish that thrive in moderate climates, typically in water temperatures between roughly 15°C to 25°C
+
 ### Real word example
 - **Minnows & Danios:** White Cloud Mountain Minnow, Zebra Danio, Leopard Danio, Glowlight Danio.
 - **Barbs**: Cherry Barb, Rosy Barb, Gold Barb, Odessa Barb.

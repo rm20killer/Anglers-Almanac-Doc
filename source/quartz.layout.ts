@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/rm20killer/Anglers-Almanac-Doc",
       Twitter: "https://twitter.com/rm20killer",
-      Donate: "https://github.com/sponsors/rm20killer"
+      Donate: "https://github.com/sponsors/rm20killer",
     },
   }),
 }
@@ -28,7 +28,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.Explorer({
+
+        sortFn: (a, b) => {
+          const nameOrderMap: Record<string, number> = {
+            "configs/_configs": 1,
+          }
+          let orderA = nameOrderMap[a.file?.slug ?? a.name] || 9999
+          let orderB = nameOrderMap[b.file?.slug ?? b.name] || 9999
+          if (orderA !== orderB) {
+            return orderA - orderB
+          }
+          const nameA = a.name.toLowerCase()
+          const nameB = b.name.toLowerCase()
+          if (nameA.startsWith("_") && !nameB.startsWith("_")) return -1
+          if (!nameA.startsWith("_") && nameB.startsWith("_")) return 1
+          return nameA.localeCompare(nameB)
+        },
+      }),
+    ),
   ],
   right: [
     Component.Graph(),

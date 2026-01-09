@@ -42,3 +42,6 @@ When an attachment is slotted, it adds its **weight multipliers** to the rod's l
 | **`zone`**              | `3`                          | Works best in one specific part of the world (like the **Snow Zone**).            |
 | **`rarity_tier`**       | `epic`, `legendary`          | Makes **Legendary** fish bite more often, while ignoring common fish.             |
 | **`category`**          | `junk`                       | If you want **Junk**, this rod attracts boots and cans instead of fish.           |
+
+
+Those attachments can be attached to [[Rods]] in game.

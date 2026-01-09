@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
+import { ColorPalette } from "./quartz/plugins/transformers/palette" 
 /**
  * Quartz 4.0 Configuration
  *
@@ -59,6 +59,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
+      ColorPalette(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
