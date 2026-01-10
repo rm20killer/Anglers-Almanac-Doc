@@ -2,6 +2,9 @@
 draft: false
 tags:
   - Book
+title: The Almanac Book
+aliases:
+  - Almanac Book
 ---
 As you catch fish, the book fills with sketches, data, and secrets, turning a simple hobby into a research project. Think [Dragon Manual](https://bookofdragons.github.io/) from How to Train Your Dragons but you fill the info when you catch the fish.
 
