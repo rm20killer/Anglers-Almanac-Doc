@@ -10,7 +10,9 @@ aliases:
 
 # WIP
 All subject to change
-- [[Configs/Loot File Structure]]
-	- [[Colour Structure]]
+- [[Loot File Structure]]
 - [[Rod Structure]]
 - [[Bait Structure]]
+
+- [[Old Loot File Structure]]
+	- [[Colour Structure]]
