@@ -10,7 +10,7 @@
     "providerHint": "github"
   },
   "vaultPath": "/",
-  "contentFolder": "content",
+  "contentFolder": "source/content",
   "useFullResolutionImages": false,
   "applyEmbeds": true,
   "publishFrontmatterKey": "publish",
@@ -38,7 +38,7 @@
   "useFantasyStatblocks": false,
   "manageSyncerStyles": true,
   "useThemes": false,
-  "lastUsedSettingsTab": "frontmatter",
+  "lastUsedSettingsTab": "git",
   "noteSettingsIsInitialized": true,
   "pluginVersion": "1.9.2",
   "diffViewStyle": "auto",

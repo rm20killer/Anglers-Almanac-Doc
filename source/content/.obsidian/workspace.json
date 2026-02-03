@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReleaseNotes/_Release Note Index.md",
+                "file": "Template/Zones info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Release Note Index"
+              "title": "Zones info"
             }
           },
           {
@@ -260,12 +260,12 @@
   },
   "active": "ceffcb87e0d08867",
   "lastOpenFiles": [
-    "Template/post.md",
-    "Template/Release note index.md",
-    "Template/Release note template.md",
-    "ReleaseNotes/0.0.2.md",
     "ReleaseNotes/_Release Note Index.md",
+    "Template/Release note template.md",
+    "Template/Release note index.md",
+    "Template/post.md",
     "Template/Zones info.md",
+    "ReleaseNotes/0.0.2.md",
     "Images/Screenshot 2026-02-03 022340 1.png",
     "Images/Screenshot 2026-02-03 022340.png",
     "Images/logo_2.png",
