@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "ReleaseNotes/_Release Note Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "_Release Note Index"
             }
           },
           {
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -254,11 +254,28 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "markdown-importer:Open format converter": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "ceffcb87e0d08867",
   "lastOpenFiles": [
+    "Template/post.md",
+    "Template/Release note index.md",
+    "Template/Release note template.md",
+    "ReleaseNotes/0.0.2.md",
+    "ReleaseNotes/_Release Note Index.md",
+    "Template/Zones info.md",
+    "Images/Screenshot 2026-02-03 022340 1.png",
+    "Images/Screenshot 2026-02-03 022340.png",
+    "Images/logo_2.png",
+    "ReleaseNotes/0.0.3.md",
+    "Configs/_Configs.md",
+    "Configs/Rod Structure.md",
+    "ReleaseNotes/0.0.6.md",
+    "ReleaseNotes/0.0.5.md",
+    "ReleaseNotes/0.0.4.md",
+    "_index.md",
     "_Minigames.md",
     "Images/banner_3.png",
     "Images/banner_2.png",
@@ -267,34 +284,18 @@
     "Images/book_2.png",
     "Images/book_cover_1.png",
     "Images/logo_1.png",
-    "_index.md",
     "_Roadmap.md",
-    "Screenshot 2026-02-03 022340.png",
-    "Images/Screenshot 2026-02-03 022340.png",
-    "ReleaseNotes/0.0.5.md",
-    "Images/Almanac_Stats_Test.png",
-    "ReleaseNotes/0.0.4.md",
-    "ReleaseNotes/0.0.3.md",
-    "ReleaseNotes/0.0.2.md",
-    "Template/post.md",
     "Configs/Rod Attachment Structure.md",
     "ReleaseNotes",
     "Untitled.md",
     "Configs/Loot File Structure.md",
     "_The Almanac Book.md",
-    "Template/Zones info.md",
     "Loot/_Loots.md",
     "Loot/Junk/Global/_Global Junk.md",
     "Loot/Fish/Zone 4/_Devastated Lands Info.md",
     "Loot/Fish/Zone 3/_Whisperfrost Frontiers Info.md",
     "Loot/Fish/Zone 2/_Howling Sands Info.md",
     "Loot/Fish/Zone 1/_Emerald Wilds Info.md",
-    "Loot/Fish/Global/_Global Fish.md",
-    "Loot/Fish/Global/minnow_family.md",
-    "Configs/Rod Structure.md",
-    "Configs/Colour Structure.md",
-    "Configs/Old Loot File Structure.md",
-    "Configs/_Configs.md",
     "Untitled.base",
     "Untitled 1.base",
     "Loot/Fish/Zone 4",

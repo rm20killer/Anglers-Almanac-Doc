@@ -26,7 +26,7 @@ The heart of the mod is [[_The Almanac Book]], your personal guide to the waters
 Angler’s Almanac is built with a modular JSON-driven architecture. This means the world is constantly evolving:
 
 With loot change able from the Hytale Asset Editor
-![[Screenshot 2026-02-03 022340.png]]
+![[Screenshot 2026-02-03 022340 1.png]]
 
 ---
 # Links

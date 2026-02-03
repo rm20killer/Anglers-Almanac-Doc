@@ -2,5 +2,7 @@
   "obsidian-git",
   "obsidian-admonition",
   "templater-obsidian",
-  "color-palette"
+  "color-palette",
+  "dataview",
+  "quartz-syncer"
 ]
