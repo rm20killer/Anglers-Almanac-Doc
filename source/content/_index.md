@@ -20,13 +20,15 @@ Fishing would be gamified making players having to do a small [[_Minigames]] and
 ## The Almanac book
 The heart of the mod is [[_The Almanac Book]], your personal guide to the waters of Orbis:
 - **Track Your Progress:** Every fish you catch is recorded with info about the fish.
-![[Almanac_Stats_Test.png]]
+![[Almanac Book.png]]
 
 ## Built for Customization
 Angler’s Almanac is built with a modular JSON-driven architecture. This means the world is constantly evolving:
 
 With loot change able from the Hytale Asset Editor
 ![[Screenshot 2026-02-03 022340 1.png]]
+
+Learn how to add your own loot in  [[2. Adding new loot]]
 
 ---
 # Links

@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Zones info.md",
+                "file": "ReleaseNotes/_Release Note Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zones info"
+              "title": "_Release Note Index"
             }
           },
           {
@@ -97,16 +97,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Configs/Colour Structure.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Colour Structure"
+              "title": "_index"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -258,52 +258,52 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "ceffcb87e0d08867",
+  "active": "e0e89a8d36dad711",
   "lastOpenFiles": [
+    "How to/2. Adding new loot.md",
+    "Loot/Fish/Global/_Global Fish.md",
+    "Loot/_Loots.md",
+    "Images/UI/Tabs/Sextant_Tab.png",
+    "Images/UI/Tabs/Ocean_tab.png",
+    "Images/UI/Tabs/Global_Tab.png",
+    "Images/UI/Tabs/Fish_tab.png",
+    "Loot/Fish/Global/Minnow.md",
+    "Images/UI/Tabs/Zone_4_Tab.png",
+    "Images/UI/Tabs/Zone_3_Tab.png",
+    "Images/UI/Tabs/Zone_2_Tab.png",
+    "Images/UI/Tabs/Zone_1_Tab.png",
+    "Images/UI/Tabs/FishingRod.png",
+    "Images/UI/Tabs",
+    "Images/UI/Stamps/Uncommon/Uncommon2.png",
+    "Images/UI/Stamps/Uncommon",
+    "Images/UI/Stamps/Rare",
+    "Images/UI/Stamps/Legendary",
+    "Images/UI/Stamps/Epic",
+    "Images/UI/Stamps/Common",
+    "Images/UI/Stamps",
+    "Images/UI/FishAssets",
+    "Images/UI",
+    "Images/Untitled.md",
+    "Loot/Junk/Global/_Global Junk.md",
+    "How to/3. Adding your fish to the Almanac.md",
+    "_index.md",
+    "How to/1. Install the mod.md",
+    "Configs/Loot File Structure.md",
+    "Configs/Rod Attachment Structure.md",
+    "Configs/Rod Structure.md",
+    "_Minigames.md",
+    "Modding help/How to create a JSON file that editable in the Hytale editor.md",
+    "Modding help",
+    "ReleaseNotes/0.0.6.md",
+    "ReleaseNotes/0.0.7.md",
+    "ReleaseNotes/0.0.3.md",
+    "ReleaseNotes/0.0.4.md",
+    "Template/Zones info.md",
     "ReleaseNotes/_Release Note Index.md",
     "Template/Release note template.md",
     "Template/Release note index.md",
     "Template/post.md",
-    "Template/Zones info.md",
     "ReleaseNotes/0.0.2.md",
-    "Images/Screenshot 2026-02-03 022340 1.png",
-    "Images/Screenshot 2026-02-03 022340.png",
-    "Images/logo_2.png",
-    "ReleaseNotes/0.0.3.md",
-    "Configs/_Configs.md",
-    "Configs/Rod Structure.md",
-    "ReleaseNotes/0.0.6.md",
-    "ReleaseNotes/0.0.5.md",
-    "ReleaseNotes/0.0.4.md",
-    "_index.md",
-    "_Minigames.md",
-    "Images/banner_3.png",
-    "Images/banner_2.png",
-    "Images/book_1.png",
-    "Images/banner_1.png",
-    "Images/book_2.png",
-    "Images/book_cover_1.png",
-    "Images/logo_1.png",
-    "_Roadmap.md",
-    "Configs/Rod Attachment Structure.md",
-    "ReleaseNotes",
-    "Untitled.md",
-    "Configs/Loot File Structure.md",
-    "_The Almanac Book.md",
-    "Loot/_Loots.md",
-    "Loot/Junk/Global/_Global Junk.md",
-    "Loot/Fish/Zone 4/_Devastated Lands Info.md",
-    "Loot/Fish/Zone 3/_Whisperfrost Frontiers Info.md",
-    "Loot/Fish/Zone 2/_Howling Sands Info.md",
-    "Loot/Fish/Zone 1/_Emerald Wilds Info.md",
-    "Untitled.base",
-    "Untitled 1.base",
-    "Loot/Fish/Zone 4",
-    "Loot/Fish/Zone 3",
-    "Loot/Fish/Zone 2",
-    "Template",
-    "Loot/Fish/Zone 1",
-    "Loot/Junk/Global",
-    "Loot/Junk"
+    "Configs/_Configs.md"
   ]
 }

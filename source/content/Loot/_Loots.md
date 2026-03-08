@@ -13,6 +13,7 @@ aliases:
 
 
 # Fish
+- [[_Global Fish]]
 - [[_Emerald Wilds Info]]
 - [[_Howling Sands Info]]
 - [[_Whisperfrost Frontiers Info]]

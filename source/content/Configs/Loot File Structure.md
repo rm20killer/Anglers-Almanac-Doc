@@ -6,46 +6,48 @@ tags:
   - Loot
   - Visuals
 ---
+>[!seealso] 
+> Learn how to use this file in [[2. Adding new loot]]
 
-*Server/AnglersAlmanac/FishLootTable/Zone1/fish/Legendary_Frostgill.json*
+*Server/AnglersAlmanac/FishLootTable/Zone3/fish/Legendary_Frostgill.json*
 ```json
-{
-  "ItemId": "Fish_Frostgill_Item",
-  "Name": "Frostgill",
-  "Description": "An ice-cold fish with scales like frosted glass.",
-  "FamilyId": "Frostgill_family",
-  "Rarity": "Legendary",
-  "Weight": 20,
-  "Size": 85,
-  "IsGlobal": false,
-  "Habitats": {
-    "Zones": ["3"],
-    "Tiers": [],
-    "Regions": [],
-    "Biomes": [],
-    "Time_of_day": ["Any"],
-    "Required_weather": ["Any"],
-    "Moon_phase": -1,
-    "Min_depth": 3,
-    "Height": {
-      "Min_y": 50,
-      "Max_y": -1
-    },
-    "Exclude_zones": [],
-    "Exclude_tiers": [],
-    "Exclude_biomes": ["Lava_Caves"],
-    "Exclude_regions": [],
-    "Weight_multiplier": 0.0
-  },
-  "Minigame_stats": {
-    "Difficulty": 14,
-    "Behavior": "aggressive",
-    "Stamina": 180
-  }
+{  
+  "ItemId": "Fish_Frostgill_Item",  
+  "Category": [  
+    "fish",  
+    "freshwater",  
+    "arctic"  
+  ],  
+  "Name": "Frostgill",  
+  "Description": "A serrated terror of the arctic ice, this fish has scales like frosted glass and teeth which can bite through a frozen line. It doesn’t just live in the cold; it thrives in it, swimming in the slush like a ghost made of winter. Catching this fish is the true test of a fisherman’s mettle, as this fish has a temperament as sharp as its fins.",  
+  "FamilyId": "Channichthyidae",  
+  "Rarity": "Legendary",  
+  "IsGlobal": false,  
+  "Weight": 20,  
+  "Size": 85,  
+  "Habitats": {  
+    "Zones": ["3"],  
+    "Tiers": [],  
+    "Regions": [],  
+    "Biomes": [],  
+    "Min_depth": 3,  
+    "Height": {  
+      "Min_y": 0,  
+      "Max_y": -1  
+    }  
+  },  
+  "Minigame_stats": {  
+    "Difficulty": 14,  
+    "Behavior": "aggressive",  
+    "Stamina": 180  
+  },  
+  "Book_info": {  
+    "Habitat_Info": "• Whisperfrost Frontiers"  
+  }  
 }
 ```
 
-
+![[Screenshot 2026-02-03 022340.png]]
 ### ### 1. Identity & Data
 - **`ItemId`**: Internal string ID for the item.
 - **`FamilyId`**: Groups fish for specific mechanics or Almanac sorting.
