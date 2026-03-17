@@ -1,0 +1,21 @@
+---
+draft: false
+tags:
+  - Rod
+  - Config
+---
+![[Rod_Crude.png]]
+```json
+{  
+  "Stats": {  
+    "Control": 0.7,  
+    "Difficulty": 1.5,  
+    "Forgiveness": 0.8,  
+    "Stamina": 1,  
+    "FishWeightMul": 1,  
+    "RarityMul": 1  
+  }  
+}
+```
+
+Next tier: [[Iron Fishing Rod]]
