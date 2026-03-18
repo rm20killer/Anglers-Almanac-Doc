@@ -127,35 +127,35 @@ Those fish can be found in most bodies of water in Devastated Lands.
 ---
 # Junk Loot
 
-| Item | Zone | Item ID |
-| :--- | :--- | :--- |
-| [[Copper ore]] | **GLOBAL** | `Ore_Copper` |
-| [[Essence of Fire]] | **GLOBAL** | `Ingredient_Fire_Essence` |
-| [[Stick]] | **GLOBAL** | `Ingredient_Fabric_Scrap_Linen` |
-| [[Gold ore]] | **GLOBAL** | `Ore_Gold` |
-| [[Iron ore]] | **GLOBAL** | `Ore_Iron` |
-| [[Stick]] | **GLOBAL** | `Ingredient_Stick` |
-| [[Coconut]] | **OCEAN** | `Plant_Fruit_Coconut` |
-| [[Coral Shell]] | **OCEAN** | `Deco_Coral_Shell` |
-| [[Coral Shell Purple]] | **OCEAN** | `Deco_Coral_Shell_Purple` |
-| [[Coral Shell Sanddollar]] | **OCEAN** | `Deco_Coral_Shell_Sanddollar` |
-| [[Coral Shell Swirly]] | **OCEAN** | `Deco_Coral_Shell_Swirly` |
-| [[Coral Shell Urchin]] | **OCEAN** | `Deco_Coral_Shell_Urchin` |
-| [[Essence of Water]] | **OCEAN** | `Ingredient_Water_Essence` |
-| [[Azurecap mushroom]] | **ZONE1** | `Plant_Crop_Mana2` |
-| [[Azure Fruit]] | **ZONE1** | `Plant_Fruit_Azure` |
-| [[Azure Kelp]] | **ZONE1** | `Plant_Crop_Mana3` |
-| [[Cyan Crystal - Small]] | **ZONE1** | `Rock_Crystal_Cyan_Small` |
-| [[Essence of Life]] | **ZONE1** | `Ingredient_Life_Essence` |
-| [[Bone Fragments]] | **ZONE2** | `Ingredient_Bone_Fragment` |
-| [[Essence of Lightning]] | **ZONE2** | `Ingredient_Lightning_Essence` |
-| [[Thorium ore]] | **ZONE2** | `Ore_Thorium` |
-| [[Blue Crystal - Small]] | **ZONE3** | `Rock_Crystal_Blue_Small` |
-| [[Cobalt ore]] | **ZONE3** | `Ore_Cobalt` |
-| [[Essence of Ice]] | **ZONE3** | `Ingredient_Ice_Essence` |
-| [[Gold ore]] | **ZONE3** | `Ore_Gold` |
-| [[Adamantite ore]] | **ZONE4** | `Ore_Adamantite` |
-| [[Essence of Fire]] | **ZONE4** | `Ingredient_Fire_Essence` |
-| [[Essence of Life]] | **ZONE4** | `Ingredient_Life_Essence` |
-| [[Yello Crystal - Small]] | **ZONE4** | `Rock_Crystal_Yello_Small` |
+| Item                       | Zone       | Item ID                         |
+| :------------------------- | :--------- | :------------------------------ |
+| [[Copper ore]]             | **GLOBAL** | `Ore_Copper`                    |
+| [[Essence of Fire]]        | **GLOBAL** | `Ingredient_Fire_Essence`       |
+| [[Stick]]                  | **GLOBAL** | `Ingredient_Fabric_Scrap_Linen` |
+| [[Gold ore]]               | **GLOBAL** | `Ore_Gold`                      |
+| [[Iron ore]]               | **GLOBAL** | `Ore_Iron`                      |
+| [[Stick]]                  | **GLOBAL** | `Ingredient_Stick`              |
+| [[Coconut]]                | **OCEAN**  | `Plant_Fruit_Coconut`           |
+| [[Coral Shell]]            | **OCEAN**  | `Deco_Coral_Shell`              |
+| [[Coral Shell Purple]]     | **OCEAN**  | `Deco_Coral_Shell_Purple`       |
+| [[Coral Shell Sanddollar]] | **OCEAN**  | `Deco_Coral_Shell_Sanddollar`   |
+| [[Coral Shell Swirly]]     | **OCEAN**  | `Deco_Coral_Shell_Swirly`       |
+| [[Coral Shell Urchin]]     | **OCEAN**  | `Deco_Coral_Shell_Urchin`       |
+| [[Essence of Water]]       | **OCEAN**  | `Ingredient_Water_Essence`      |
+| [[Azurecap mushroom]]      | **ZONE1**  | `Plant_Crop_Mana2`              |
+| [[Azure Fruit]]            | **ZONE1**  | `Plant_Fruit_Azure`             |
+| [[Azure Kelp]]             | **ZONE1**  | `Plant_Crop_Mana3`              |
+| [[Cyan Crystal - Small]]   | **ZONE1**  | `Rock_Crystal_Cyan_Small`       |
+| [[Essence of Life]]        | **ZONE1**  | `Ingredient_Life_Essence`       |
+| [[Bone Fragments]]         | **ZONE2**  | `Ingredient_Bone_Fragment`      |
+| [[Essence of Lightning]]   | **ZONE2**  | `Ingredient_Lightning_Essence`  |
+| [[Thorium ore]]            | **ZONE2**  | `Ore_Thorium`                   |
+| [[Blue Crystal - Small]]   | **ZONE3**  | `Rock_Crystal_Blue_Small`       |
+| [[Cobalt ore]]             | **ZONE3**  | `Ore_Cobalt`                    |
+| [[Essence of Ice]]         | **ZONE3**  | `Ingredient_Ice_Essence`        |
+| [[Gold ore]]               | **ZONE3**  | `Ore_Gold`                      |
+| [[Adamantite ore]]         | **ZONE4**  | `Ore_Adamantite`                |
+| [[Essence of Fire]]        | **ZONE4**  | `Ingredient_Fire_Essence`       |
+| [[Essence of Life]]        | **ZONE4**  | `Ingredient_Life_Essence`       |
+| [[Yello Crystal - Small]]  | **ZONE4**  | `Rock_Crystal_Yello_Small`      |
 # Treasure
