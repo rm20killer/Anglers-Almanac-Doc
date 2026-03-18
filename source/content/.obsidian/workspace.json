@@ -11,15 +11,88 @@
             "id": "66fb1240500d95ab",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Screenshot/Hytale2026-03-17_14-20-53.png"
+                "file": "Loot/_Loots.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Hytale2026-03-17_14-20-53"
+              "icon": "lucide-file",
+              "title": "_Loots"
+            }
+          },
+          {
+            "id": "c3d5053aa45d055d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loot/Fish/Zone 4/_Devastated Lands Fish.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Devastated Lands Fish"
+            }
+          },
+          {
+            "id": "5bb5cdada4c970e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loot/Fish/Zone 4/Black Piranha.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Black Piranha"
+            }
+          },
+          {
+            "id": "98d71767108385e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loot/_Loots.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Loots"
+            }
+          },
+          {
+            "id": "a6a57969f3df2180",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loot/Fish/Zone 2/Eel Moray.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eel Moray"
+            }
+          },
+          {
+            "id": "139565ce922e9afa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loot/Fish/Zone 4/Trilobite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trilobite"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,53 +244,53 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "66fb1240500d95ab",
+  "active": "98d71767108385e0",
   "lastOpenFiles": [
-    "Images/Screenshot/Hytale2026-03-17_14-22-30.png",
-    "Images/Screenshot/Hytale2026-03-17_14-20-53.png",
-    "Images/Screenshot/Hytale2026-03-17_14-17-34.png",
-    "Images/Screenshot/Pasted image 20260317141357.png",
-    "Images/Screenshot/Pasted image 20260317141956.png",
-    "Images/Screenshot/ScreenshotEditor.png",
-    "Images/Screenshot/ScreenshotEditor1.png",
-    "Images/Screenshot/Pasted image 20260317134728.png",
-    "ReleaseNotes/0.1.0.md",
+    "Loot/Fish/Zone 2/Eel Moray.md",
+    "Loot/_Loots.md",
+    "Loot/Fish/Zone 4/Trilobite.md",
+    "Loot/Fish/Zone 4/_Devastated Lands Fish.md",
+    "Loot/Fish/Zone 4/Black Piranha.md",
+    "Loot/Fish/Zone 4/Lava Shellfish.md",
+    "Loot/Fish/Zone 4/Black Trilobite.md",
+    "Loot/Fish/Zone 3/Snapjaw.md",
+    "Loot/Fish/Zone 3/Frostgill.md",
+    "Loot/Fish/Ocean/Yellow Jellyfish.md",
+    "Loot/Fish/Ocean/Sailfin Tang.md",
+    "Loot/Fish/Ocean/Red Jellyfish.md",
+    "Loot/Fish/Ocean/Man Of War.md",
+    "Loot/Fish/Ocean/Lemon Peel Tang.md",
+    "Loot/Fish/Ocean/Humpback Whale.md",
+    "Loot/Fish/Ocean/Hammerhead Shark.md",
+    "Loot/Fish/Ocean/Green Jellyfish.md",
+    "Loot/Fish/Ocean/Cyan Jellyfish.md",
+    "Loot/Fish/Ocean/Clownfish.md",
+    "Loot/Fish/Ocean/Crab.md",
+    "Loot/Fish/Ocean/Chevron Tang.md",
+    "Loot/Fish/Ocean/Blue Tang.md",
+    "Loot/Fish/Ocean/Blue Jellyfish.md",
+    "Piranha.md",
+    "Loot/Fish/Zone 1/Piranha.md",
+    "Loot/Fish/Zone 3/_Whisperfrost Frontiers Fish.md",
+    "Loot/Fish/Ocean",
+    "Images/Banners",
+    "Images/Almanac_Stats_Test.png",
+    "Images/Almanac_Book.png",
+    "Images/banner_1.png",
+    "Images/Logo.png",
     "Images/Authors 1.png",
-    "_index.md",
-    "_Addons.md",
-    "Images/Addons.png",
-    "Images/Authors.png",
-    "How to/2. Adding new loot.md",
-    "Configs/Rod Structure.md",
-    "ReleaseNotes/_Release Note Index.md",
-    "_Minigames.md",
-    "ReleaseNotes/0.0.7.md",
-    "ReleaseNotes/0.0.6.md",
-    "_The Almanac Book.md",
-    "How to/1. Instructions.md",
+    "Images/Screenshot/ScreenshotEditor1.png",
+    "Images/Screenshot/ScreenshotEditor.png",
+    "Images/Screenshot/Pasted image 20260317141956.png",
+    "Images/Screenshot/Pasted image 20260317141357.png",
+    "Images/Screenshot/Pasted image 20260317135924.png",
     "Images/Screenshot",
-    "_Roadmap.md",
-    "Rods/Crude Rod.md",
-    "Rods/Iron Fishing Rod.md",
     "Images/Icons/ModelsGenerated",
     "Images/Icons/ItemsGenerated",
     "Images/Icons",
-    "How to/3. Adding your fish to the Almanac.md",
     "Rods",
-    "Loot/Fish/Global/_Global Fish.md",
-    "Loot/_Loots.md",
-    "Loot/Fish/Global/Minnow.md",
     "Images/UI/Tabs",
     "Images/UI/Stamps/Uncommon",
-    "Images/UI/Stamps/Rare",
-    "Images/UI/Stamps/Legendary",
-    "Images/UI/Stamps/Epic",
-    "Images/Untitled.md",
-    "Loot/Junk/Global/_Global Junk.md",
-    "Configs/Loot File Structure.md",
-    "Configs/Rod Attachment Structure.md",
-    "Modding help/How to create a JSON file that editable in the Hytale editor.md",
-    "ReleaseNotes/0.0.3.md",
-    "ReleaseNotes/0.0.4.md"
+    "Images/UI/Stamps/Rare"
   ]
 }

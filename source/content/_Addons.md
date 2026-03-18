@@ -3,6 +3,7 @@ draft: false
 tags:
 title: Addons
 ---
+![[Addons.png]]
 # List of mods that have support for Angler’s Almanac
 
 >[!info]
