@@ -11,14 +11,12 @@
             "id": "66fb1240500d95ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_index.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/Screenshot/Hytale2026-03-17_14-20-53.png"
               },
-              "icon": "lucide-file",
-              "title": "_index"
+              "icon": "lucide-image",
+              "title": "Hytale2026-03-17_14-20-53"
             }
           }
         ]
@@ -175,23 +173,24 @@
   },
   "active": "66fb1240500d95ab",
   "lastOpenFiles": [
-    "_Addons.md",
+    "Images/Screenshot/Hytale2026-03-17_14-22-30.png",
+    "Images/Screenshot/Hytale2026-03-17_14-20-53.png",
+    "Images/Screenshot/Hytale2026-03-17_14-17-34.png",
+    "Images/Screenshot/Pasted image 20260317141357.png",
+    "Images/Screenshot/Pasted image 20260317141956.png",
+    "Images/Screenshot/ScreenshotEditor.png",
+    "Images/Screenshot/ScreenshotEditor1.png",
+    "Images/Screenshot/Pasted image 20260317134728.png",
+    "ReleaseNotes/0.1.0.md",
+    "Images/Authors 1.png",
     "_index.md",
+    "_Addons.md",
     "Images/Addons.png",
     "Images/Authors.png",
-    "Images/Authors 1.png",
     "How to/2. Adding new loot.md",
     "Configs/Rod Structure.md",
     "ReleaseNotes/_Release Note Index.md",
-    "Authors.png",
-    "Images/Link.png",
-    "Images/banner_2.png",
-    "Images/Showcase.png",
-    "Images/Logo.png",
-    "Images/Description.png",
-    "Images/Banner.png",
     "_Minigames.md",
-    "ReleaseNotes/0.1.0.md",
     "ReleaseNotes/0.0.7.md",
     "ReleaseNotes/0.0.6.md",
     "_The Almanac Book.md",

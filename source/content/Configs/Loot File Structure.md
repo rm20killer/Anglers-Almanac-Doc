@@ -47,7 +47,7 @@ tags:
 }
 ```
 
-![[Screenshot 2026-02-03 022340.png]]
+![[ScreenshotEditor1.png]]
 ### ### 1. Identity & Data
 - **`ItemId`**: Internal string ID for the item.
 - **`FamilyId`**: Groups fish for specific mechanics or Almanac sorting.
