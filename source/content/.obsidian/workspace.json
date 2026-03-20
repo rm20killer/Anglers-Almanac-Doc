@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loot/_Loots.md",
+                "file": "ReleaseNotes/_Release Note Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Loots"
+              "title": "_Release Note Index"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "ReleaseNotes/_Release Note Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for _Release Note Index"
             }
           },
           {
@@ -246,8 +246,22 @@
   },
   "active": "98d71767108385e0",
   "lastOpenFiles": [
-    "Loot/Fish/Zone 2/Eel Moray.md",
+    "ReleaseNotes/0.0.6.md",
+    "ReleaseNotes/_Release Note Index.md",
+    "Template/Release note index.md",
+    "Template/Release note template.md",
+    "ReleaseNotes/0.0.7.md",
+    "_Addons.md",
+    "_index.md",
+    "ReleaseNotes/1.0.0.md",
+    "ReleaseNotes/1.0.1.md",
+    "How to/1. Instructions.md",
+    "How to/2. Adding new loot.md",
+    "2022-03-02.md",
+    "How to/3. Adding your fish to the Almanac.md",
+    "How to/4. Creating a fishing rod.md",
     "Loot/_Loots.md",
+    "Loot/Fish/Zone 2/Eel Moray.md",
     "Loot/Fish/Zone 4/Trilobite.md",
     "Loot/Fish/Zone 4/_Devastated Lands Fish.md",
     "Loot/Fish/Zone 4/Black Piranha.md",
@@ -258,20 +272,6 @@
     "Loot/Fish/Ocean/Yellow Jellyfish.md",
     "Loot/Fish/Ocean/Sailfin Tang.md",
     "Loot/Fish/Ocean/Red Jellyfish.md",
-    "Loot/Fish/Ocean/Man Of War.md",
-    "Loot/Fish/Ocean/Lemon Peel Tang.md",
-    "Loot/Fish/Ocean/Humpback Whale.md",
-    "Loot/Fish/Ocean/Hammerhead Shark.md",
-    "Loot/Fish/Ocean/Green Jellyfish.md",
-    "Loot/Fish/Ocean/Cyan Jellyfish.md",
-    "Loot/Fish/Ocean/Clownfish.md",
-    "Loot/Fish/Ocean/Crab.md",
-    "Loot/Fish/Ocean/Chevron Tang.md",
-    "Loot/Fish/Ocean/Blue Tang.md",
-    "Loot/Fish/Ocean/Blue Jellyfish.md",
-    "Piranha.md",
-    "Loot/Fish/Zone 1/Piranha.md",
-    "Loot/Fish/Zone 3/_Whisperfrost Frontiers Fish.md",
     "Loot/Fish/Ocean",
     "Images/Banners",
     "Images/Almanac_Stats_Test.png",

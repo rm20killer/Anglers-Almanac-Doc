@@ -26,7 +26,7 @@ Those fish can be found in most bodies of water around Global.
 
 
 
-## **Fish**
+### **Fish**
 - [[Bluegill]]
 - [[Catfish]]
 - [[Minnow]]
@@ -46,7 +46,7 @@ Those fish can be found in most bodies of water around Ocean.
 
 
 
-## **Fish**
+### **Fish**
 - [[Blue Jellyfish]]
 - [[Blue Tang]]
 - [[Chevron Tang]]
@@ -74,7 +74,7 @@ Those fish can be found in most bodies of water in Emerald Wilds.
 
 
 
-## **Fish**
+### **Fish**
 - [[Pike]]
 - [[Piranha]]
 ---
@@ -88,7 +88,7 @@ Those fish can be found in most bodies of water in Howling Sands.
 
 
 
-## **Fish**
+### **Fish**
 - [[Eel Moray]]
 
 ---
@@ -103,7 +103,7 @@ Those fish can be found in most bodies of water in Whisperfrost Frontiers.
 
 
 
-## **Fish**
+### **Fish**
 - [[Frostgill]]
 - [[Snapjaw]]
 ---
@@ -118,7 +118,7 @@ Those fish can be found in most bodies of water in Devastated Lands.
 
 
 
-## **Fish**
+### **Fish**
 - [[Black Trilobite]]
 - [[Lava Shellfish]]
 - [[Black Piranha]]

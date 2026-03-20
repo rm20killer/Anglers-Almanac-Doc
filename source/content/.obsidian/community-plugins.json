@@ -4,5 +4,6 @@
   "templater-obsidian",
   "color-palette",
   "dataview",
-  "quartz-syncer"
+  "quartz-syncer",
+  "dataview-serializer"
 ]
