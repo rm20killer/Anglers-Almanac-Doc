@@ -1,23 +1,29 @@
 ---
 publish: true
 aliases:
-  - Release Notes
-  - Release Notes Index
   - Release Note Index
+  - Release Note
 title: Release Notes
 modified:
 tags:
   - PatchNotes
 cssclasses: ""
+draft: false
 ---
-## 19 Mar 2026 | [1.0.1](app://obsidian.md/ReleaseNotes/1.0.1.md)
+## [1.0.2](app://obsidian.md/ReleaseNotes/1.0.2.md)26 Mar 2026
+
+- Updated to update 4 (server version: 2026.03.26-89796e57b)
+
+---
+
+## [1.0.1](app://obsidian.md/ReleaseNotes/1.0.1.md)19 Mar 2026
 
 - Made fishing work in an instance world
 - Lower resolution on UI images to try and fix [#13](https://github.com/rm20killer/Anglers-Almanac/issues/13)
 
 ---
 
-## 18 Mar 2026 | [1.0.0](app://obsidian.md/ReleaseNotes/1.0.0.md)
+## [1.0.0](app://obsidian.md/ReleaseNotes/1.0.0.md)18 Mar 2026
 
 - Added in [Almanac Book](app://obsidian.md/_The%20Almanac%20Book)
     - Track your stats
@@ -40,7 +46,7 @@ cssclasses: ""
 
 ---
 
-## 4 Feb 2026 | [0.0.7](app://obsidian.md/ReleaseNotes/0.0.7.md)
+## [0.0.7](app://obsidian.md/ReleaseNotes/0.0.7.md)4 Feb 2026
 
 - Removed log spam (sorry)
 - Fixed UI issue with UI being black
@@ -49,26 +55,26 @@ cssclasses: ""
 
 ---
 
-## 2 Feb 2026 | [0.0.6](app://obsidian.md/ReleaseNotes/0.0.6.md)
+## [0.0.6](app://obsidian.md/ReleaseNotes/0.0.6.md)2 Feb 2026
 
 - Fixed an issue with server startup on some machines relating to `java.lang.NoClassDefFoundError: com/google/common/reflect/ClassPath`
 
 ---
 
-## 1 Feb 2026 | [0.0.5](app://obsidian.md/ReleaseNotes/0.0.5.md)
+## [0.0.5](app://obsidian.md/ReleaseNotes/0.0.5.md)1 Feb 2026
 
 - Added new command `/SetMinigame <minigame>`
 - Fixed issues when the minigame is set to "NoMinigame"
 
 ---
 
-## 31 Jan 2026 | [0.0.4](app://obsidian.md/ReleaseNotes/0.0.4.md)
+## [0.0.4](app://obsidian.md/ReleaseNotes/0.0.4.md)31 Jan 2026
 
 - Added sound effects to Stardew Valley minigame
 
 ---
 
-## 28 Jan 2026 | [0.0.3](app://obsidian.md/ReleaseNotes/0.0.3.md)
+## [0.0.3](app://obsidian.md/ReleaseNotes/0.0.3.md)28 Jan 2026
 
 - Added Stardew Valley fishing
 - Added sounds
@@ -76,6 +82,6 @@ cssclasses: ""
 
 ---
 
-## 25 Jan 2026 | [0.0.2](app://obsidian.md/ReleaseNotes/0.0.2.md)
+## [0.0.2](app://obsidian.md/ReleaseNotes/0.0.2.md)25 Jan 2026
 
 - Basic fishing with zone and biome-based loot.
