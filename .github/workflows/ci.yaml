@@ -35,6 +35,8 @@ jobs:
       - name: Install Node.js dependencies
         working-directory: quartz
         run: npm ci --omit=dev
+      - name: Install Quartz plugins
+        run: npx quartz plugin install
       - name: Build website
         run: npx quartz build
         working-directory: quartz
