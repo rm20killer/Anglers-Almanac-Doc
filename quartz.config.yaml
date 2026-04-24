@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rm20killer.github.io
+  baseUrl: rm20killer.github.io/Anglers-Almanac-Doc
   ignorePatterns:
     - private
     - templates
