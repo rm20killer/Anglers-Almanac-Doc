@@ -8,6 +8,7 @@ tags:
 The `LootCaughtEvent` is dispatched by the **Minigame Manager** within the `SaveLoot` function. It triggers when a player successfully completes the fishing minigame.
 
 ### Class location:
+
 ```java
 dev.rm20.anglersalmanac.IEvents.LootCaughtEvent;
 ```

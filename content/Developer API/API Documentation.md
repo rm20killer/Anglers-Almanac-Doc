@@ -5,10 +5,11 @@ tags:
   - Dev
   - Development
 ---
-```ad-danger
-If you want to use this you must use build from feature/api branch as it not yet ready
-https://github.com/rm20killer/Anglers-Almanac/pull/20
-```
+
+>[!danger] 
+>If you want to use this you must use build from feature/api branch as it not yet ready
+>https://github.com/rm20killer/Anglers-Almanac/pull/20
+
 
 
 This page is to show how to use the API for your own plugins.
@@ -24,9 +25,9 @@ To build against the Anglers Almanac API, you must provide the library to your c
 
 ### Gradle Configuration (`build.gradle`)
 
-```ad-warning
-Gradle stuff will change as I make it easier to use the API
-```
+>[!warning] 
+>Gradle stuff will change as I make it easier to use the API
+
 
 Add the Almanac JAR to your libs folder and define it as compileOnly.
 
@@ -95,6 +96,6 @@ public static void onLootCaught(LootCaughtEvent event) {
 ```
 
 
-```ad-note
-If you want your plugin to work _without_ AnglersAlmanac being installed, you must move the dependency to `OptionalDependencies` in the JSON and wrap your `registerEvents()` call in a `Class.forName` check to avoid runtime crashes.
-```
+>[!note] 
+>If you want your plugin to work _without_ AnglersAlmanac being installed, you must move the dependency to `OptionalDependencies` in the JSON and wrap your `registerEvents()` call in a `Class.forName` check to avoid runtime crashes.
+
