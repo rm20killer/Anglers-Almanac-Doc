@@ -16,12 +16,15 @@ dev.rm20.anglersalmanac.IEvents.LootCaughtEvent;
 ### Getter:
 Use these methods within your listener to extract data about the catch:
 
-| **Method**         | **Return Type**   | **Description**                                                                          |
-| ------------------ | ----------------- | ---------------------------------------------------------------------------------------- |
-| `getLoot()`        | `FishLootManager` | Returns the full loot manager object containing catch details.                           |
-| `getLootID()`      | `String`          | A shortcut to get the unique identifier of the item caught                               |
-| `getPlayer()`      | `Player`          | Returns the `Player` entity who performed the catch.                                     |
-| `isNewDiscovery()` | `boolean`         | Returns `true` if this is the first time this player has caught this specific loot type. |
+| **Method**         | **Return Type**   | **Description**                                                                         |
+| ------------------ | ----------------- | --------------------------------------------------------------------------------------- |
+| `getLoot()`        | `FishLootManager` | Returns the full loot manager object containing catch details                           |
+| `getLootID()`      | `String`          | A shortcut to get the unique id of the item caught                                      |
+| `getPlayer()`      | `Player`          | Returns the `Player` entity who performed the catch                                     |
+| `isNewDiscovery()` | `boolean`         | Returns `true` if this is the first time this player has caught this specific loot type |
+
+>[!note]
+Prefer using `getLootID()` for simple logic (like checking for a specific fish), but use `getLoot()` if you need to access to more data.
 
 Code from event class:
 ```java
@@ -59,7 +62,5 @@ public static void onLootCaught(LootCaughtEvent event) {
 ```
 
 
-### Notes
- **Loot Identification:** Prefer using `getLootID()` for simple logic (like checking for a specific fish), but use `getLoot()` if you need to access to more data.
 
 

@@ -13,15 +13,15 @@ tags:
 
 
 This page is to show how to use the API for your own plugins.
-If your looking to add your own content like fish, rods, bait please look at 
-[[2. Adding new loot]]
-[[3. Adding your fish to the Almanac]]
-[[4. Creating a fishing rod]]
+If your looking to add your own content like fish, rods, bait please look at:
+- [[2. Adding new loot]]
+- [[3. Adding your fish to the Almanac]]
+- [[4. Creating a fishing rod]]
 
 As this can be done in game using the **Hytale Asset Editor**
 # Environment Setup
 
-To build against the Anglers Almanac API, you must provide the library to your compiler without bundling it into your final JAR *(since the server provides it at runtime)*.
+To build against the Anglers Almanac API, you must provide the library to your compiler without bundling it into your JAR *(since the server provides the jar)*.
 
 ### Gradle Configuration (`build.gradle`)
 
@@ -29,7 +29,7 @@ To build against the Anglers Almanac API, you must provide the library to your c
 >Gradle stuff will change as I make it easier to use the API
 
 
-Add the Almanac JAR to your libs folder and define it as compileOnly.
+Add the Almanac JAR to your libs folder and define it as compileOnly
 
 ```gradle
 dependencies { // Hytale Core API 
