@@ -36,9 +36,9 @@ jobs:
         working-directory: quartz
         run: npm ci --omit=dev
       - name: Install Quartz plugins
-        run: npx quartz plugin install
+        run: npm quartz plugin install
       - name: Build website
-        run: npx quartz build
+        run: npm quartz build
         working-directory: quartz
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
