@@ -32,15 +32,29 @@ jobs:
           node-version: 'lts/*'
           cache: npm
           cache-dependency-path: quartz/package-lock.json
+
+      - name: Cache Quartz plugins
+        uses: actions/cache@v5
+        with:
+          path: quartz/.quartz/plugins1
+          key: ${{ runner.os }}-plugins-${{ hashFiles('quartz/quartz.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-plugins-
+
       - name: Install Node.js dependencies
         working-directory: quartz
-        run: npm ci --omit=dev
+        run: |
+          npm ci
+          npm install @quartz-community/utils
+
       - name: Install Quartz plugins
         run: npx quartz plugin install
         working-directory: quartz
+        
       - name: Build website
         run: npx quartz build
         working-directory: quartz
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
