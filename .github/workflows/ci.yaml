@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0 # Fetch all history
       - name: Copy documents and configurations
         run: |
-          cp -v quartz.config.ts quartz.layout.ts quartz
+          cp -v quartz.config.yaml quartz
           cp -rvf content/* quartz/content/
       - name: Setup Node.js
         uses: actions/setup-node@v6
