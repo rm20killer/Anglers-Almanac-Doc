@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://rm20killer.github.io/Anglers-Almanac-Doc/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian","templates"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

@@ -1,14 +1,4 @@
----
-draft: true
-tags:
-  - PatchNotes
-title: Release Notes
-aliases:
-  - Release Note
-  - Release Note Index
-  - Release Notes Index
-publish: true
----
+
 ```dataviewjs
 const currentFolder = dv.current().file.folder;
 let pages = dv.pages(`"${currentFolder}"`)
