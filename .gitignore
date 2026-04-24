@@ -1,5 +1,7 @@
-.trash/*
-/source/node_modules
-/source/public
-source/quartz/.quartz-cache/transpiled-build.mjs
-source/quartz/.quartz-cache/transpiled-build.mjs.map
+.DS_Store
+node_modules
+public
+.obsidian
+.quartz-cache
+private/
+.vscode/
