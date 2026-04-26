@@ -6,7 +6,8 @@ tags:
   - Visuals
 ---
 >[!warning]
->WORK IN PROGRESS
+>WORK IN PROGRESS 
+>NOT IN GAME YET
 
 *assets/almanac/attachment/heavy_iron_hook.json*
 ```json

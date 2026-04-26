@@ -16,27 +16,28 @@ dev.rm20.anglersalmanac.IEvents.LootCaughtEvent;
 ### Getter:
 Use these methods within your listener to extract data about the catch:
 
-| **Method**         | **Return Type**   | **Description**                                                                         |
-| ------------------ | ----------------- | --------------------------------------------------------------------------------------- |
-| `getLoot()`        | `FishLootManager` | Returns the full loot manager object containing catch details                           |
-| `getLootID()`      | `String`          | A shortcut to get the unique id of the item caught                                      |
-| `getPlayer()`      | `Player`          | Returns the `Player` entity who performed the catch                                     |
-| `isNewDiscovery()` | `boolean`         | Returns `true` if this is the first time this player has caught this specific loot type |
+| **Method**         | **Return Type**   | **Description**                                                           |
+| ------------------ | ----------------- | ------------------------------------------------------------------------- |
+| `getLoot()`        | `FishLootManager` | Returns the full loot manager object containing catch details.            |
+| `getLootID()`      | `String`          | A shortcut to get the unique ID of the item caught.                       |
+| `getPlayer()`      | `Player`          | Returns the `Player` entity who performed the catch.                      |
+| `isNewDiscovery()` | `boolean`         | Returns `true` if this is the first time the player has caught this loot. |
+| `isLegendary()`    | `boolean`         | Returns `true` if the caught item has the Legendary flag.                 |
+| `getPerformance()` | `float`           | Returns the raw precision score of the minigame completion.               |
+| `getPRating()`     | `String`          | Returns a human-readable string rating (e.g., "perfect", "great").        |
 
 >[!note]
 Prefer using `getLootID()` for simple logic (like checking for a specific fish), but use `getLoot()` if you need to access to more data.
 
-Code from event class:
-```java
-    public FishLootManager getLoot() { return loot; }  
-    public String getLootID() {return loot.getItemID();}  
-    public Player getPlayer() { return player; }  
-    public boolean isNewDiscovery() { return newDiscovery; }  
-```
-
+#### Performance Logic Table
+The `getPRating()` method categorizes the `float performance` based on these thresholds:
+- **95+**: `"perfect"`
+- **80 - 94**: `"great"`
+- **40 - 79**: `"good"`
+- **-1**: `"nil"`
+- **Other**: `"fail"`
 
 ### Implementation Example
-
 
 ```java
 import dev.rm20.anglersalmanac.IEvents.LootCaughtEvent;
@@ -54,13 +55,19 @@ public static void onLootCaught(LootCaughtEvent event) {
         player.sendMessage((Message.raw("You caught a " + lootID));
     }
     
+    if (event.isLegendary()) { 
+	    player.sendMessage("✨ A LEGENDARY CATCH! ✨"); 
+    }
+    
+    if (rating.equals("perfect")) { 
+	    player.sendMessage("Incredible! That was a perfect catch."); 
+    }
+    
     // Getting info about the loot from the Loot Manager class.
     FishLootManager Loot = event.getLoot();
     String Rarity = Loot.getRarity()
     String RarityColour = FishLootManager.getRarityColour(Rarity)
 }
 ```
-
-
 
 

@@ -7,8 +7,8 @@ tags:
 ---
 
 >[!danger] 
->If you want to use this you must use build from feature/api branch as it not yet ready
->https://github.com/rm20killer/Anglers-Almanac/pull/20
+>Those are early stage version of the API, subject to change.
+>Will try to keep it the same
 
 
 
@@ -47,7 +47,7 @@ You must update manifest so Hytale know to load the plugins in the correct order
 
 ```JSON
 "Dependencies": {
-    "dev.rm20:AnglersAlmanac": "*"
+    "dev.rm20:AnglersAlmanac": "*" // you can replace * with version
 }
 ```
 
@@ -57,7 +57,8 @@ Angler's Almanac uses events to handle the API.
 Current events are as followed
 - [[LootCaughtEvent]]
 	- *Triggers whenever a player successfully catches an item when fishing*
-
+- [[FishingFailedEvent]]
+	- *Triggers when a player fails the minigame and the loot escapes*
 ### Registering the Event
 
 You must register to the event this can be like the following:
@@ -73,8 +74,8 @@ protected void setup() {
 private void registerEvents() {  
     EventRegistry events = this.getEventRegistry();  
     events.registerGlobal(  
-            LootCaughtEvent.class,  
-            Example::onLootCaught // this is the function you want to call
+            LootCaughtEvent.class, // The event your trying to listen to
+            Example::onLootCaught // This is the function you want to call
     );  
 }
 ```
