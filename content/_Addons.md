@@ -14,5 +14,6 @@ title: Addons
 ***TaleQuests** is a powerful, configuration first quest plugin built for **Hytale** servers.*
 
 Features a dedicated `CATCH_FISH` quest type and fish tracking.
+
 [Download on BuiltByBit](https://builtbybit.com/resources/talequests.90948/)
 
