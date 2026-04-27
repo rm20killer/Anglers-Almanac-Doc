@@ -44,7 +44,6 @@ Not everything could get support, especially with the UI just yet, but once Noes
 
 ![[Addons.png]]
 
-**Angler’s Almanac** is built to be a foundational fishing system. Below is a curated list of mods and plugins that expand its ecosystem—utilizing everything from the [[API Documentation]] for custom logic to adding [[2. Adding new loot]], [[5. Adding new bait]], and [[4. Creating a fishing rod]].
 **Angler’s Almanac** is built to be a foundational fishing system. Below is a curated list of mods and plugins that expand its ecosystem—utilizing everything from the [[API Documentation]] for custom logic to [[2. Adding new loot]], [[5. Adding new bait]], and [[4. Creating a fishing rod]].
 
 More info [[_Addons]]
