@@ -33,22 +33,32 @@ Angler’s Almanac is built with a modular JSON-driven architecture, this mod is
 
 Learn how to add your own loot in  [[2. Adding new loot]]
 
+## Localisation 
+Help translate the mode by submitting a pull request on GitHub: https://github.com/rm20killer/Anglers-Almanac-Translation
+
+Not everything could get support, especially with the UI just yet, but once Noesis is out, we will try to get localisation for more of the book
+
 ![[Showcase.png]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z927YmkkWCg?si=ZNzS_uuGjAYpXecl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![[Addons.png]]
 
-This mod does not have any [[_Addons]] right now:
+**Angler’s Almanac** is built to be a foundational fishing system. Below is a curated list of mods and plugins that expand its ecosystem—utilizing everything from the [[API Documentation]] for custom logic to adding [[2. Adding new loot]], [[5. Adding new bait]], and [[4. Creating a fishing rod]].
+
+More info [[_Addons]]
+- [TaleQuests](https://builtbybit.com/resources/talequests.90948/)
+	-  Powerful, configuration quest plugin built for **Hytale** servers.
 
 >[!info]
 >If you added support for the mod please contact `RM20` on discord to get it added to this part.
 
 ![[Link.png]]
 
-- **Code**: https://github.com/rm20killer/Anglers-Almanac
+- **GitHub**: https://github.com/rm20killer/Anglers-Almanac
 - **Report issue**: https://github.com/rm20killer/Anglers-Almanac/issues
 - **Help us improve the docs here**: https://github.com/rm20killer/Anglers-Almanac-Doc
+- **Help us Translate the mod**: https://github.com/rm20killer/Anglers-Almanac-Translation
 
 ![[Images/Authors.png]]
 

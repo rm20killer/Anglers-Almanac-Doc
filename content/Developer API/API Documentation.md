@@ -25,7 +25,6 @@ To build against the Anglers Almanac API, you must provide the library to your c
 
 ### Gradle Configuration (`build.gradle`)
 
->[!warning] 
 
 Add https://jitpack.io as a repo
 Define the anglers api as compileOnly like the following.
