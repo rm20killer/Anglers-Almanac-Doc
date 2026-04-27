@@ -11,6 +11,7 @@ title: Addons
 
 # TaleQuests
 **Type:** Questing Plugin
+
 ***TaleQuests** is a powerful, configuration first quest plugin built for **Hytale** servers.*
 
 Features a dedicated `CATCH_FISH` quest type and fish tracking.
