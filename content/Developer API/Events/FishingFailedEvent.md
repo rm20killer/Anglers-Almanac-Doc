@@ -16,11 +16,11 @@ dev.rm20.anglersalmanac.IEvents.FishingFailedEvent;
 ### Getter:
 Use these methods within your listener to handle failed fishing attempts:
 
-|**Method**|**Return Type**|**Description**|
-|---|---|---|
-|`getMissedLoot()`|`FishLootManager`|Returns the loot object that the player failed to catch.|
-|`getLootID()`|`String`|A shortcut to get the ID of the missed item (e.g., for logging).|
-|`getPlayer()`|`Player`|Returns the `Player` entity who was fishing.|
+| **Method**        | **Return Type** | **Description**                                                  |
+| ----------------- | --------------- | ---------------------------------------------------------------- |
+| `getMissedLoot()` | `FishLoot`      | Returns the loot object that the player failed to catch.         |
+| `getLootID()`     | `String`        | A shortcut to get the ID of the missed item (e.g., for logging). |
+| `getPlayer()`     | `Player`        | Returns the `Player` entity who was fishing.                     |
 
 ### Implementation Example
 

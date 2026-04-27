@@ -16,15 +16,15 @@ dev.rm20.anglersalmanac.IEvents.LootCaughtEvent;
 ### Getter:
 Use these methods within your listener to extract data about the catch:
 
-| **Method**         | **Return Type**   | **Description**                                                           |
-| ------------------ | ----------------- | ------------------------------------------------------------------------- |
-| `getLoot()`        | `FishLootManager` | Returns the full loot manager object containing catch details.            |
-| `getLootID()`      | `String`          | A shortcut to get the unique ID of the item caught.                       |
-| `getPlayer()`      | `Player`          | Returns the `Player` entity who performed the catch.                      |
-| `isNewDiscovery()` | `boolean`         | Returns `true` if this is the first time the player has caught this loot. |
-| `isLegendary()`    | `boolean`         | Returns `true` if the caught item has the Legendary flag.                 |
-| `getPerformance()` | `float`           | Returns the raw precision score of the minigame completion.               |
-| `getPRating()`     | `String`          | Returns a human-readable string rating (e.g., "perfect", "great").        |
+| **Method**         | **Return Type** | **Description**                                                           |
+| ------------------ | --------------- | ------------------------------------------------------------------------- |
+| `getLoot()`        | `FishLoot`      | Returns the full loot manager object containing catch details.            |
+| `getLootID()`      | `String`        | A shortcut to get the unique ID of the item caught.                       |
+| `getPlayer()`      | `Player`        | Returns the `Player` entity who performed the catch.                      |
+| `isNewDiscovery()` | `boolean`       | Returns `true` if this is the first time the player has caught this loot. |
+| `isLegendary()`    | `boolean`       | Returns `true` if the caught item has the Legendary flag.                 |
+| `getPerformance()` | `float`         | Returns the raw precision score of the minigame completion.               |
+| `getPRating()`     | `String`        | Returns a human-readable string rating (e.g., "perfect", "great").        |
 
 >[!note]
 Prefer using `getLootID()` for simple logic (like checking for a specific fish), but use `getLoot()` if you need to access to more data.

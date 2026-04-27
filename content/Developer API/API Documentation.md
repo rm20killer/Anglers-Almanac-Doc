@@ -26,18 +26,23 @@ To build against the Anglers Almanac API, you must provide the library to your c
 ### Gradle Configuration (`build.gradle`)
 
 >[!warning] 
->Gradle stuff will change as I make it easier to use the API
 
-
-Add the Almanac JAR to your libs folder and define it as compileOnly
+Add https://jitpack.io as a repo
+Define the anglers api as compileOnly like the following.
+Make sure you change "1.0.8" with the latest version in case of api changes
 
 ```gradle
+repositories {  
+	... 
+    maven { url 'https://jitpack.io' }  
+}
+
 dependencies { // Hytale Core API 
 	compileOnly("com.hypixel.hytale:Server:$hytale_build")
 	...
 	
 	
-	compileOnly(files("libs/AnglersAlmanac-1.0.5.jar")) 
+	compileOnly("com.github.rm20killer:Anglers-Almanac:1.0.8")
 }
 ```
 
