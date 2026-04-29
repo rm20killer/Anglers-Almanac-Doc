@@ -49,6 +49,11 @@ Not everything could get support, especially with the UI just yet, but once Noes
 More info [[_Addons]]
 - [TaleQuests](https://builtbybit.com/resources/talequests.90948/)
 	-  Powerful, configuration quest plugin built for **Hytale** servers.
+- [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree)
+	- MMO Skill Tree adds an RPG-style progression system
+- [Mermaids](https://www.curseforge.com/hytale/mods/mermaids)
+	- Transform into a Mermaid in water!
+
 
 >[!info]
 >If you added support for the mod please contact `RM20` on discord to get it added to this part.
