@@ -49,10 +49,13 @@ Not everything could get support, especially with the UI just yet, but once Noes
 More info [[_Addons]]
 - [TaleQuests](https://builtbybit.com/resources/talequests.90948/)
 	-  Powerful, configuration quest plugin built for **Hytale** servers.
+	- *Extra points for being first to use API*
 - [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree)
 	- MMO Skill Tree adds an RPG-style progression system
 - [Mermaids](https://www.curseforge.com/hytale/mods/mermaids)
 	- Transform into a Mermaid in water!
+- [QuestLines Core](https://www.curseforge.com/hytale/mods/questlines)
+	- brings NPCs to life through a fully data-driven dialogue and quest system
 
 
 >[!info]
