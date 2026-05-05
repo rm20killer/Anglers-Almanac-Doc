@@ -55,7 +55,21 @@ You must update manifest so Hytale know to load the plugins in the correct order
 }
 ```
 
-# Using the Angler's Almanac API
+# Using the API Providers
+
+The AnglersAlmanacAPI class serves as the entry point to access player statistics and loot data directly.
+Current Providers are as following;
+- [[IAlmanacProvider]]
+- [[ILootProvider]]
+Example Usage:
+
+```Java
+IAlmanacProvider almanac = AnglersAlmanacAPI.getAlmanac();
+if (almanac.hasPlayerCaught(playerUuid, "Legendary_Frostgill")) {
+    
+}
+```
+# Using the Angler's Almanac Events
 
 Angler's Almanac uses events to handle the API.
 Current events are as followed
