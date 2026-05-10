@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"7c32b06ef6362ff6","type":"group","x":920,"y":-520,"width":907,"height":1044,"label":"More fish"},
+		{"id":"384145c7050e1a79","type":"group","x":-760,"y":-160,"width":650,"height":1200,"color":"3","label":"Quest"},
+		{"id":"29fe8dce2d2bb1f5","type":"group","x":40,"y":-160,"width":725,"height":684,"label":"Rod attachments"},
+		{"id":"c0c51ea5a651ba40","type":"text","text":"# Quest system","x":-560,"y":-140,"width":250,"height":60},
+		{"id":"d19cb00567d0d5d6","type":"text","text":"milestone","x":-740,"y":62,"width":250,"height":60},
+		{"id":"047d43d7bdd4f02a","type":"text","text":"Player gets reward for reaching certain stats","x":-740,"y":172,"width":250,"height":60},
+		{"id":"7ef27436dcf668c2","type":"text","text":"\n> [!example] \n> getting 50% of all fish in the book gets a new rod recipe ","x":-740,"y":280,"width":250,"height":180},
+		{"id":"14431735a21dca5f","type":"text","text":"# Welcome to the idea board\nThose are ideas we have thought of, It may not come out but have a public board to get input.\nFeel free to use [GitHub issues](https://github.com/rm20killer/Anglers-Almanac/issues) For your ideas","x":-760,"y":-520,"width":650,"height":160,"color":"1"},
+		{"id":"ee8dcef307efd24f","type":"text","text":"Angler NPC (Terraria like)","x":-380,"y":62,"width":250,"height":60},
+		{"id":"2fb13abb09daa7af","type":"text","text":"Player will need to solve a riddle and give the fish related to it to the NPC","x":-380,"y":172,"width":250,"height":140},
+		{"id":"2266263138695e3e","type":"text","text":"A way to modify the rods even further with custom attachments that change how the rod and loot behaviours ","x":495,"y":-140,"width":250,"height":159},
+		{"id":"4ea2ab11f8b5eb80","type":"text","text":"Missing fish entry. For hidden fish","x":60,"y":-520,"width":250,"height":60},
+		{"id":"5eae22c13c802ef4","type":"text","text":"Pages that ripped but gets filled in when you catch the fish","x":60,"y":-406,"width":250,"height":106},
+		{"id":"87ae13cbc828bf89","type":"text","text":"# Rod Attachments","x":60,"y":-103,"width":250,"height":85},
+		{"id":"e88c228dd0dd06f8","type":"file","file":"Configs/Rod Attachment Structure.md","x":60,"y":104,"width":685,"height":400},
+		{"id":"c4923e9a7d2033ba","type":"file","file":"Loot/Fish/Zone 1/_Emerald Wilds Info.md","x":940,"y":-358,"width":400,"height":400},
+		{"id":"dafb3fea6e9daf1f","type":"file","file":"Loot/Fish/Zone 3/_Whisperfrost Frontiers Info.md","x":940,"y":104,"width":400,"height":400},
+		{"id":"3e79c3a386b23787","type":"file","file":"Loot/Fish/Zone 2/_Howling Sands Info.md","x":1407,"y":-358,"width":400,"height":400},
+		{"id":"fe3ee06ea67a7a12","type":"file","file":"Loot/Fish/Zone 4/_Devastated Lands Info.md","x":1407,"y":104,"width":400,"height":400},
+		{"id":"806803eb2cab4155","type":"text","text":"# MORE FISH","x":940,"y":-490,"width":250,"height":60},
+		{"id":"69f9a1481d3bcb6c","x":-740,"y":504,"width":250,"height":60,"type":"text","text":"*Old idea*\nQuest line"},
+		{"id":"b2b4c6b4dfb0e6ad","type":"file","file":"Quest/QuestsPath.canvas","x":-740,"y":620,"width":400,"height":400},
+		{"id":"50b7c7ec0a3272d2","x":-380,"y":464,"width":250,"height":141,"type":"text","text":"Not doing this anymore due to time needed and there are already plugins for a quest system people can use instead"}
+	],
+	"edges":[
+		{"id":"a7b19efa49f4b179","fromNode":"c0c51ea5a651ba40","fromSide":"bottom","toNode":"d19cb00567d0d5d6","toSide":"top"},
+		{"id":"b32add5bacbc1e49","fromNode":"c0c51ea5a651ba40","fromSide":"bottom","toNode":"ee8dcef307efd24f","toSide":"top"},
+		{"id":"d14b0d651e40ee9b","fromNode":"d19cb00567d0d5d6","fromSide":"bottom","toNode":"047d43d7bdd4f02a","toSide":"top"},
+		{"id":"24eca36200670efc","fromNode":"ee8dcef307efd24f","fromSide":"bottom","toNode":"2fb13abb09daa7af","toSide":"top"},
+		{"id":"48df1a76e3166559","fromNode":"047d43d7bdd4f02a","fromSide":"bottom","toNode":"7ef27436dcf668c2","toSide":"top"},
+		{"id":"cd56e6c28190da86","fromNode":"87ae13cbc828bf89","fromSide":"right","toNode":"2266263138695e3e","toSide":"left"},
+		{"id":"1cf582a0094f3e7d","fromNode":"4ea2ab11f8b5eb80","fromSide":"bottom","toNode":"5eae22c13c802ef4","toSide":"top"},
+		{"id":"f7d8546792b9ca51","fromNode":"69f9a1481d3bcb6c","fromSide":"right","toNode":"50b7c7ec0a3272d2","toSide":"left"}
+	]
+}

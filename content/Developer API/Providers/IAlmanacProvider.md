@@ -37,3 +37,20 @@ This example demonstrates how to check a player's progress and reward them if th
 ```java
 
 ```
+
+
+# PlayerStatsData
+
+```java
+class PlayerStatsData {  
+    public int totalCatches = 0;  
+    public int legendaryCount = 0;  
+    public java.util.List<FishEntry> topFish = new java.util.ArrayList<>();  
+    public java.util.Map<String, Integer> ratingsMap = new java.util.HashMap<>();  
+    public java.util.Map<String, Integer> catchMap = new java.util.HashMap<>();  
+  
+    public boolean hasCaught(String fishId) { return catchMap.containsKey(fishId); }  
+    public int getRatingCount(MinigamePRating.PerformanceRating rating) { return ratingsMap.getOrDefault(rating.name(), 0); }  
+    public int getFishCount(String fishId) { return catchMap.getOrDefault(fishId, 0); }  
+}
+```

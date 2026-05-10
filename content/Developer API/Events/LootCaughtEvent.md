@@ -18,7 +18,7 @@ Use these methods within your listener to extract data about the catch:
 
 | **Method**         | **Return Type** | **Description**                                                           |
 | ------------------ | --------------- | ------------------------------------------------------------------------- |
-| `getLoot()`        | `FishLoot`      | Returns the full loot manager object containing catch details.            |
+| `getLoot()`        | [[FishLoot]]    | Returns the full loot manager object containing catch details.            |
 | `getLootID()`      | `String`        | A shortcut to get the unique ID of the item caught.                       |
 | `getPlayer()`      | `Player`        | Returns the `Player` entity who performed the catch.                      |
 | `isNewDiscovery()` | `boolean`       | Returns `true` if this is the first time the player has caught this loot. |
