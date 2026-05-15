@@ -26,9 +26,14 @@ Angler’s Almanac introduces a dynamic [[_Minigames]] system where the difficul
 - **Tension Bar:** *Stardew style*, keep a floating bar over a moving fish icon.
 
 ## Built for Customization
+It easy to config for everyone with config files that you can access with the important config being accessible in game with `/openconfig` while being in op 
+
+![[Screenshot2026-05-15 141343.png]]
+
+### More control
 Angler’s Almanac is built with a modular JSON-driven architecture, this mod is a dream for server hosts and fellow developers.
 
-**Hytale Asset Editor Support**: Easily add new loot and custom fish species.
+**Hytale Asset Editor Support**: Easily add new loot, rods, bait and even spawn entities from fishing.
 ![[ScreenshotEditor.png]]
 
 Learn how to add your own loot in  [[2. Adding new loot]]
