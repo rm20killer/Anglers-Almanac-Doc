@@ -6,7 +6,7 @@ title: The Almanac Book
 aliases:
   - Almanac Book
 ---
-As you catch fish, the book fills with sketches, data, and secrets, turning a simple hobby into a research project. Think [Dragon Manual](https://bookofdragons.github.io/) from How to Train Your Dragons but you fill the info when you catch the fish.
+As you catch fish, the book fills with sketches, data, and secrets, turning a simple hobby into a research project. Think [Dragon of Dragons](https://bookofdragons.github.io/) from How to Train Your Dragons but you fill the info when you catch the fish.
 
 ![[Images/Almanac_Book.png]]
 ## Features
@@ -20,3 +20,6 @@ When you first start your game, the pages are mostly blank silhouettes. You must
 #### **2**: Multiple Catches
 - **Catch Counter:** Displays exactly how many of this species you have caught.
 - **Record Tracking:** Displays your Personal Best (Largest) and Smallest catches. *(WIP)*
+
+
+![[Hytale2026-03-17_14-22-30.png]]
