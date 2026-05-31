@@ -86,3 +86,12 @@ and [CapnSloth](https://x.com/Capn_Sloth)
 > Created the original [Stardew Style Fishing](https://www.curseforge.com/hytale/mods/stardew-style-fishing) mod for hytale
 
 With help from ColdLavenderSun (Aka. Fluttershy) with art
+
+![[Translations.png]]
+Here are a list of people that help with translations for the mod
+
+**@drpepperaholic12** - German (de-BE)
+
+**@cafe\.na\.live** ([Hyn4](https://github.com/Hyn4)) -  Brazillian Portuguese (pt-BR)
+
+**Help us Translate the mod**: https://github.com/rm20killer/Anglers-Almanac-Translation

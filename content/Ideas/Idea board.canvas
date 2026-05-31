@@ -2,7 +2,8 @@
 	"nodes":[
 		{"id":"7c32b06ef6362ff6","type":"group","x":920,"y":-520,"width":907,"height":1044,"label":"More fish"},
 		{"id":"384145c7050e1a79","type":"group","x":-760,"y":-160,"width":650,"height":1200,"color":"3","label":"Quest"},
-		{"id":"29fe8dce2d2bb1f5","type":"group","x":40,"y":-160,"width":725,"height":684,"label":"Rod attachments"},
+		{"id":"0e3c391c4eaf99f5","x":11,"y":122,"width":838,"height":618,"type":"group","label":"GitHub Changes"},
+		{"id":"29fe8dce2d2bb1f5","type":"group","x":40,"y":-160,"width":725,"height":220,"label":"Rod attachments"},
 		{"id":"c0c51ea5a651ba40","type":"text","text":"# Quest system","x":-560,"y":-140,"width":250,"height":60},
 		{"id":"d19cb00567d0d5d6","type":"text","text":"milestone","x":-740,"y":62,"width":250,"height":60},
 		{"id":"047d43d7bdd4f02a","type":"text","text":"Player gets reward for reaching certain stats","x":-740,"y":172,"width":250,"height":60},
@@ -17,8 +18,12 @@
 		{"id":"4ea2ab11f8b5eb80","type":"text","text":"Missing fish entry. For hidden fish","x":60,"y":-520,"width":250,"height":60},
 		{"id":"5eae22c13c802ef4","type":"text","text":"Pages that ripped but gets filled in when you catch the fish","x":60,"y":-406,"width":250,"height":106},
 		{"id":"87ae13cbc828bf89","type":"text","text":"# Rod Attachments","x":60,"y":-103,"width":250,"height":85},
-		{"id":"e88c228dd0dd06f8","type":"file","file":"For Developers/Schemas/Rod Attachment Structure.md","x":60,"y":104,"width":685,"height":400},
-		{"id":"806803eb2cab4155","type":"text","text":"# MORE FISH","x":940,"y":-490,"width":250,"height":60}
+		{"id":"806803eb2cab4155","type":"text","text":"# MORE FISH","x":940,"y":-490,"width":250,"height":60},
+		{"id":"f82859bb452eb97b","x":31,"y":142,"width":798,"height":60,"type":"text","text":"# Updated REPO"},
+		{"id":"132c00d50e33c7d0","x":31,"y":212,"width":798,"height":68,"type":"text","text":"Allow easy removal of Expansion system like the book/quest etc#\nMake it so if someone just wants the fishing system they can just download it"},
+		{"id":"761de704474e429c","x":31,"y":292,"width":798,"height":225,"type":"text","text":"[ API ]\n\t^\n\t│ (Depends on API)\n[ AnglersAlmanac-Core ] -> (The core mechanics: Cast, bite, reel, loot tables)\n\t^\n\t│ (Depends on API & core)\n[ AnglersAlmanac-Expansion ] -> (Almanac Book UI, Stats, Custom Items)\n"},
+		{"id":"ae1844c962dd22cb","x":31,"y":539,"width":798,"height":50,"type":"text","text":"## Minigame system changes"},
+		{"id":"73040e96c1bcd5d6","x":31,"y":617,"width":798,"height":103,"type":"text","text":"**The plan**\nMake the minigame system mod able to allow other mods to inject there own minigames to the system \nModify minigame manager to allow for multiple minigames to happen\n"}
 	],
 	"edges":[
 		{"id":"a7b19efa49f4b179","fromNode":"c0c51ea5a651ba40","fromSide":"bottom","toNode":"d19cb00567d0d5d6","toSide":"top"},
