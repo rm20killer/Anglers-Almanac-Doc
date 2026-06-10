@@ -20,7 +20,7 @@ dev.rm20.anglersalmanac.api.ILootProvider;
 Like other API components, you can retrieve the active implementation via the `AnglersAlmanacAPI` class:
 
 ```Java
-ILootProvider lootProvider = AnglersAlmanacAPI.getLootProvider();
+ILootProvider lootProvider = AnglersAlmanacAPI.getLoot();
 ```
 
 ---
@@ -41,5 +41,12 @@ Use these methods to interact with the fish loot system:
 
 
 ```Java
+    fun getFishData(stack: ItemStack): FishLoot? {
+        return getFishData(stack.itemId)
+    }
 
+    fun getFishData(itemId: String): FishLoot? {
+        val provider = AnglersAlmanacAPI.getLoot()
+        return provider.allLoot.firstOrNull { it.itemID == itemId }
+    }
 ```

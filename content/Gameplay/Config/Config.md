@@ -24,7 +24,11 @@ If the file is not present, the plugin will use these default settings:
   "MinigameToUse": "TensionBar",
   "UseBait": false,
   "ShouldHabCheck": true,
-  "ShouldEnvironmentCheck": true
+  "ShouldEnvironmentCheck": true,
+  "ShouldHookEntities": true,
+  "EntityPullBaseForce": 60,
+  "EntityPullDistanceMultiplier": 5,
+  "EntityYMultiplier": 0.2
 }
 ```
 
@@ -40,9 +44,16 @@ If the file is not present, the plugin will use these default settings:
 - **ShouldHabCheck:** When enabled (`true`), the plugin checks the fish's specific habitat (e.g., coral reefs, open ocean) before deciding what can be caught.
 - **ShouldEnvironmentCheck:** When enabled (`true`), the plugin considers external factors like depth (Y-level), water depth, and the time of day for loot results.
 
-
 >[!note]
 >If your looking at how to add in your own loot look at 
 > [[2. Adding new loot]] and [[Loot File Structure]]
 > You can also find info on rods/bait here too
+
+
+**3. Hooking Entities**
+- **ShouldHookEntities**: If entities can be hooked (including players)
+- **EntityPullBaseForce**: The base horizontal pull force applied to a hooked entity.
+- **EntityPullDistanceMultiplier**: How much stronger the horizontal pull gets the further away the entity is.
+- **EntityYMultiplier**: How much higher the entity is launched upward based on their distance.
+
 
