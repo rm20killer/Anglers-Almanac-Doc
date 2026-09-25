@@ -28,7 +28,6 @@ Adds the ability to fish up rare Mermaid Scales with a loot table expansion.
 [View on CurseForge](https://www.curseforge.com/hytale/mods/mermaids)
 
 # QuestLines Core
-
 **Type:** Questing Plugin
 
 ***QuestLines** brings NPCs to life through a fully data-driven dialogue and quest system.*
@@ -44,3 +43,22 @@ Adds the ability to check when fish are caught
 Almanac fishing actions grant specialized XP rewards scale dynamically based on your performance in the fishing minigame.
  
 [View on CurseForge](https://www.curseforge.com/hytale/mods/mmo-skill-tree)
+
+# Dynamic Seasons
+**Type:** World & Environment
+
+*Adds 4 Seasons to the world, Greenhouse blocks, Seasonal Farming, Seasonal Fishing, and Customizable Weather.*
+
+Integrates to support seasonal fishing mechanics, allowing for unique fish to be caught only during specific times of the year.
+
+ [View on CurseForge](https://www.curseforge.com/hytale/mods/dynamic-seasons)
+
+# Byte Crasher: Jungle Jam
+**Type:** Minigame
+
+*A custom jungle-themed minigame experience for Hytale.*
+
+Features a custom fishing minigame powered entirely by the Angler's Almanac framework!
+![Jungle Jam Fishing Minigame](https://www.rm20.dev/_next/image?url=%2Fimages%2Fginco%2FFishingMinigame.png&w=1920&q=75)
+
+ [View on CurseForge](https://www.curseforge.com/hytale/mods/byte-crashers-jungle-jam)
