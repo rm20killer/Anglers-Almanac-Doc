@@ -17,6 +17,8 @@ If your looking to add your own content like fish, rods, bait please look at:
 - [[2. Adding new loot]]
 - [[3. Adding your fish to the Almanac]]
 - [[4. Creating a fishing rod]]
+- [[5. Adding new bait]]
+- [[6. Creating new minigame]]
 
 As this can be done in game using the **Hytale Asset Editor**
 # Environment Setup
